@@ -24,7 +24,7 @@ public class SplashActivity extends AppCompatActivity {
         //Render (provides) the elements on the screen
         setContentView(R.layout.activity_splash);
         // hides the action bar
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         // fetch the xml element by id image
         image = findViewById(R.id.image);
