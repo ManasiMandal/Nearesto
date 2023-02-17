@@ -4,12 +4,15 @@
     android:layout_height="match_parent"
     android:background="@color/primary_light"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".RestaurantsActivity">
+    tools:context=".FoodListActivity">
 
     <LinearLayout
+        android:id="@+id/main_container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:paddingHorizontal="12dp"
+        android:layout_alignParentStart="true"
+        android:layout_above="@id/bottom_nav_menu"
         android:orientation="vertical">
 
         <LinearLayout
@@ -24,13 +27,7 @@
                 android:textSize="24sp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                android:text="Restaurants" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:hint="Location Search" />
+                android:text="Food" />
 
         </LinearLayout>
 
@@ -40,20 +37,29 @@
             android:padding="8dp"
             android:visibility="visible"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_above="@+id/menu">
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:divider="@drawable/divider"
+                android:showDividers="middle">
 
-                <LinearLayout
+                <include
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    layout="@layout/food_item_card" />
 
-                </LinearLayout>
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/food_item_card" />
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/food_item_card" />
 
             </LinearLayout>
 
@@ -62,7 +68,7 @@
     </LinearLayout>
 
     <include
-        android:id="@+id/menu"
+        android:id="@+id/bottom_nav_menu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

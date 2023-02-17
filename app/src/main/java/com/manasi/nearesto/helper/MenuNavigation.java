@@ -8,7 +8,7 @@ import com.manasi.nearesto.HomeActivity;
 import com.manasi.nearesto.MyProfileActivity;
 import com.manasi.nearesto.OrdersActivity;
 import com.manasi.nearesto.R;
-import com.manasi.nearesto.RestaurantsActivity;
+import com.manasi.nearesto.FoodListActivity;
 import com.manasi.nearesto.SearchActivity;
 
 public class MenuNavigation {
@@ -24,7 +24,7 @@ public class MenuNavigation {
         btnSearch.setOnClickListener(view -> activity.startActivity(new Intent(activity, SearchActivity.class)));
         btnOrders.setOnClickListener(view -> activity.startActivity(new Intent(activity, OrdersActivity.class)));
         btnMyProfile.setOnClickListener(view -> activity.startActivity(new Intent(activity, MyProfileActivity.class)));
-        btnResturants.setOnClickListener(view -> activity.startActivity(new Intent(activity, RestaurantsActivity.class)));
+        btnResturants.setOnClickListener(view -> activity.startActivity(new Intent(activity, FoodListActivity.class)));
 
         if (activity.getClass().equals(HomeActivity.class)) {
             btnHome.setOnClickListener(null);
@@ -38,7 +38,7 @@ public class MenuNavigation {
         if (activity.getClass().equals(MyProfileActivity.class)) {
             btnMyProfile.setOnClickListener(null);
         }
-        if (activity.getClass().equals(RestaurantsActivity.class)) {
+        if (activity.getClass().equals(FoodListActivity.class)) {
             btnResturants.setOnClickListener(null);
         }
 

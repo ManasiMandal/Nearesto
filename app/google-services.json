@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "94064812192",
+    "project_id": "nearesto",
+    "storage_bucket": "nearesto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94064812192:android:d87526f3ea33695dd029c5",
+        "android_client_info": {
+          "package_name": "com.manasi.nearesto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94064812192-334va4ff27oau1g07hbthqsher395cl8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkjSh14RPjATbTu0RZ9B-aVRjPkm1Kpz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94064812192-334va4ff27oau1g07hbthqsher395cl8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
