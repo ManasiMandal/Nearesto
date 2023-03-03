@@ -3,6 +3,7 @@ package com.manasi.nearesto;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -91,6 +92,13 @@ public class HomeActivity extends AppCompatActivity {
             if (restaurant.getType() == 1) {
                 ivTypeVeg.setVisibility(View.GONE);
             }
+            restaurantItemCard.setOnClickListener(v -> {
+                Intent i = new Intent(HomeActivity.this, ViewRestaurant.class);
+                i.putExtra("restaurant_id",restaurant.getId());
+                i.putExtra("restaurant",restaurant);
+                startActivity(i);
+            });
+
 
 //            Picasso.get().load(image.getUrl()).into(imageView);
 //

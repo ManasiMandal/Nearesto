@@ -1,10 +1,14 @@
 package com.manasi.nearesto.modal;
 
-public class Restaurant {
+import java.io.Serializable;
+
+public class Restaurant implements Serializable {
 
     private String name, description, address1, address2, city, state, country, zipcode;
     private int type;
     private float rating, latitude, longitude;
+
+    private long id;
 
     public Restaurant() {}
 
@@ -12,7 +16,8 @@ public class Restaurant {
         this.name = name;
     }
 
-    public Restaurant(String name, String description, String address1, String address2, String city, String state, String country, String zipcode, int type, float rating, float latitude, float longitude) {
+    public Restaurant(long id, String name, String description, String address1, String address2, String city, String state, String country, String zipcode, int type, float rating, float latitude, float longitude) {
+        this.id = id;
         this.name = name;
         this.description = description;
         this.address1 = address1;
@@ -25,6 +30,14 @@ public class Restaurant {
         this.rating = rating;
         this.latitude = latitude;
         this.longitude = longitude;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getName() {
