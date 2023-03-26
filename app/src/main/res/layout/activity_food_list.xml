@@ -40,21 +40,12 @@
             android:layout_height="match_parent">
 
             <LinearLayout
+                android:id="@+id/food_items_container"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:divider="@drawable/divider"
                 android:showDividers="middle">
-
-                <include
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    layout="@layout/food_item_card" />
-
-                <include
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    layout="@layout/food_item_card" />
 
                 <include
                     android:layout_width="match_parent"

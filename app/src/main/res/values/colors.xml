@@ -6,5 +6,15 @@
     <color name="beige">#C7AD7F</color>
     <color name="primary_dark">#fb4303</color>
     <color name="primary_light">#fad9ca</color>
+    <color name="green">#01cb75</color>
+    <color name="lavender">#8692f7</color>
+    <color name="hint">#808080</color>
+    <color name="colorPrimary">#fbaa68</color>
+    <color name="colorPrimaryDark">#ff9b3d</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorTextBoxBack">#0A5D5B</color>
+    <color name="purple">#131a46</color>
+
+
 
 </resources>

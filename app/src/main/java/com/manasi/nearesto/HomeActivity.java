@@ -6,7 +6,9 @@ import androidx.core.app.ActivityCompat;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
@@ -15,9 +17,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.Query;
 import com.manasi.nearesto.helper.MenuNavigation;
 import com.manasi.nearesto.modal.Restaurant;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -37,6 +39,19 @@ public class HomeActivity extends AppCompatActivity {
 
         db = FirebaseFirestore.getInstance();
         loadRestaurants();
+
+        EditText locationSearch = findViewById(R.id.et_location_search);
+        locationSearch.setOnTouchListener((view, motionEvent) -> {
+            Intent i = new Intent(HomeActivity.this, MapsActivity.class);
+            i.putExtra("location",locationSearch.getText().toString());
+            startActivity(i);
+            return true;
+        });
+//        locationSearch.setOnClickListener(view -> {
+//            Intent i = new Intent(HomeActivity.this, MapsActivity.class);
+//            i.putExtra("location",locationSearch.getText().toString());
+//            startActivity(i);
+//        });
     }
 
     private void loadRestaurants() {
@@ -45,6 +60,7 @@ public class HomeActivity extends AppCompatActivity {
                 .get()
                 .addOnCompleteListener(task -> {
                     if(task.isSuccessful()) {
+                        Log.d("mydata", task.getResult().toString());
                         List<Restaurant> restaurants = task.getResult().toObjects(Restaurant.class);
                         setRestaurantsInContainer(restaurants);
                     } else {
@@ -62,11 +78,12 @@ public class HomeActivity extends AppCompatActivity {
 
         for (Restaurant restaurant: restaurants) {
 
+
+
             LinearLayout restaurantItemCard = (LinearLayout) getLayoutInflater().inflate(R.layout.restaurant_item_card, null);
-//            ImageView imageView = card.findViewById(R.id.iv_home_img);
+            ImageView ivRestaurantImage = restaurantItemCard.findViewById(R.id.iv_restaurant_image);
 //            int size = Resources.getSystem().getDisplayMetrics().widthPixels - (cardContainer.getPaddingRight() * 2);
 //            imageView.setLayoutParams(new LinearLayout.LayoutParams(size, size));
-//            ImageView ivProfile = card.findViewById(R.id.iv_profile);
             TextView tvName = restaurantItemCard.findViewById(R.id.tv_name);
             TextView tvLocation = restaurantItemCard.findViewById(R.id.tv_location);
             RatingBar rbRating = restaurantItemCard.findViewById(R.id.rb_rating);
@@ -80,6 +97,7 @@ public class HomeActivity extends AppCompatActivity {
             rbRating.setRating(restaurant.getRating());
             tvRating.setText("" + restaurant.getRating());
             tvDistance.setText(restaurant.getLatitude() + ", " + restaurant.getLongitude()) ;
+
             if (restaurant.getType() == 0) {
                 ivTypeNonVeg.setVisibility(View.GONE);
                 // Create the LayoutParams
@@ -94,22 +112,16 @@ public class HomeActivity extends AppCompatActivity {
             }
             restaurantItemCard.setOnClickListener(v -> {
                 Intent i = new Intent(HomeActivity.this, ViewRestaurant.class);
-                i.putExtra("restaurant_id",restaurant.getId());
-                i.putExtra("restaurant",restaurant);
+                i.putExtra("restaurant_id", restaurant.getId());
+                i.putExtra("restaurant", restaurant);
                 startActivity(i);
             });
 
+            String url = restaurant.getUrl();
 
-//            Picasso.get().load(image.getUrl()).into(imageView);
-//
-//            image.getUser()
-//                    .get()
-//                    .addOnCompleteListener(task -> {
-//                        User user = task.getResult().toObject(User.class);
-//                        Picasso.get().load(user.getProfile_url()).into(ivProfile);
-//                        card.setOnClickListener(view -> viewImage(image.getUrl(), user));
-//                    })
-//                    .addOnFailureListener(ex -> Utils.toast(this, ex.getMessage()));
+            if (url != null) {
+                Picasso.get().load(url).into(ivRestaurantImage);
+            }
 
             restaurantsContainer.addView(restaurantItemCard);
         }

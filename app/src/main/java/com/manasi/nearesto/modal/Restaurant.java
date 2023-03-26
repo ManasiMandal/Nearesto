@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class Restaurant implements Serializable {
 
-    private String name, description, address1, address2, city, state, country, zipcode;
+    private String name, description, url, address1, address2, city, state, country, zipcode;
     private int type;
     private float rating, latitude, longitude;
 
@@ -16,10 +16,11 @@ public class Restaurant implements Serializable {
         this.name = name;
     }
 
-    public Restaurant(long id, String name, String description, String address1, String address2, String city, String state, String country, String zipcode, int type, float rating, float latitude, float longitude) {
+    public Restaurant(long id, String name, String description, String url, String address1, String address2, String city, String state, String country, String zipcode, int type, float rating, float latitude, float longitude) {
         this.id = id;
         this.name = name;
         this.description = description;
+        this.url = url;
         this.address1 = address1;
         this.address2 = address2;
         this.city = city;
@@ -134,5 +135,13 @@ public class Restaurant implements Serializable {
 
     public void setLongitude(float longitude) {
         this.longitude = longitude;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 }

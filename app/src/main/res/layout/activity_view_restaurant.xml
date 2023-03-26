@@ -55,13 +55,25 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:paddingVertical="8dp"
                     android:textColor="@color/black"
                     android:text="Dishes" />
 
-                <include
+                <LinearLayout
+                    android:id="@+id/food_items_container"
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    layout="@layout/food_item_card" />
+                    android:divider="@drawable/divider"
+                    android:showDividers="middle">
+
+                    <include
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        layout="@layout/food_item_card" />
+
+                </LinearLayout>
 
             </LinearLayout>
 
