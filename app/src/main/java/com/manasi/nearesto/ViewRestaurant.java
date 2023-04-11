@@ -54,6 +54,7 @@ public class ViewRestaurant extends AppCompatActivity {
 
     private void setRestaurantDetailsInCard(Restaurant restaurant) {
         LinearLayout restaurantItemCard = findViewById(R.id.restaurant_details_container);
+        ImageView ivRestaurantImage = restaurantItemCard.findViewById(R.id.iv_restaurant_image);
 
         ImageView ivImage = restaurantItemCard.findViewById(R.id.iv_restaurant_image);
         TextView tvName = restaurantItemCard.findViewById(R.id.tv_name);
@@ -66,10 +67,10 @@ public class ViewRestaurant extends AppCompatActivity {
 
         ivImage.setScaleType(ImageView.ScaleType.CENTER_CROP);
         tvName.setText(restaurant.getName());
-        tvLocation.setText(restaurant.getAddress2());
+        tvLocation.setText(restaurant.getAddress1() + ", " + restaurant.getAddress2());
         rbRating.setRating(restaurant.getRating());
         tvRating.setText("" + restaurant.getRating());
-        tvDistance.setText(restaurant.getLatitude() + ", " + restaurant.getLongitude()) ;
+//        tvDistance.setText(restaurant.getLatitude() + ", " + restaurant.getLongitude()) ;
         if (restaurant.getType() == 0) {
             ivTypeNonVeg.setVisibility(View.GONE);
             // Create the LayoutParams
@@ -81,6 +82,12 @@ public class ViewRestaurant extends AppCompatActivity {
         }
         if (restaurant.getType() == 1) {
             ivTypeVeg.setVisibility(View.GONE);
+        }
+
+
+        String url = restaurant.getUrl();
+        if (url != null) {
+            Picasso.get().load(url).into(ivRestaurantImage);
         }
     }
 

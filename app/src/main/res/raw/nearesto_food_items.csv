@@ -1,0 +1,912 @@
+id,name,description,price,type,rating,restaurant,keyword,url
+1680962286272,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1679928329354,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286273,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1679977455746,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286274,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1679980561220,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286275,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1679983321188,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286276,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1680098024679,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286277,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1680267988540,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286278,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1680268002969,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286279,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1680268023554,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286280,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1680268055848,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286281,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1680268089050,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286282,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1680268104337,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286283,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1680268912802,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286284,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1680268991867,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286285,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1680269012634,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286286,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1680269029393,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286287,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1680269068085,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286288,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1680269081082,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286289,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1680269238107,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286290,Chicken Tikka,A chicken based dish which originated in south Asia,180,1,4,1680269254349,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken-Tikka.jpg?alt=media&token=0ba8191c-ada9-40fa-bfc6-1b125126ae31
+1680962286291,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1679928329354,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286292,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1679977455746,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286293,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1679980561220,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286294,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1679983321188,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286295,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1680098024679,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286296,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1680267988540,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286297,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1680268002969,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286298,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1680268023554,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286299,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1680268055848,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286300,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1680268089050,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286301,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1680268104337,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286302,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1680268912802,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286303,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1680268991867,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286304,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1680269012634,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286305,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1680269029393,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286306,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1680269068085,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286307,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1680269081082,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286308,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1680269238107,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286309,Chicken Biryani,"A savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.",350,1,4.7,1680269254349,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Biryani.jpg?alt=media&token=0e350a3c-4617-443d-bcf5-8d5e110466b5
+1680962286310,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1679928329354,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286311,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1679977455746,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286312,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1679980561220,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286313,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1679983321188,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286314,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1680098024679,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286315,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1680267988540,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286316,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1680268002969,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286317,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1680268023554,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286318,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1680268055848,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286319,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1680268089050,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286320,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1680268104337,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286321,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1680268912802,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286322,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1680268991867,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286323,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1680269012634,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286324,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1680269029393,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286325,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1680269068085,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286326,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1680269081082,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286327,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1680269238107,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286328,Chicken Fried Rice,"A dish of cooked stired on a frying pan with other ingredients such as eggs, meat, seafood, or vegetables",200,1,3.8,1680269254349,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Fried%20Rice.jpg?alt=media&token=ad069845-093b-4cbc-a0d8-bd3be88c9c96
+1680962286329,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1679928329354,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286330,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1679977455746,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286331,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1679980561220,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286332,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1679983321188,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286333,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1680098024679,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286334,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1680267988540,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286335,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1680268002969,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286336,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1680268023554,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286337,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1680268055848,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286338,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1680268089050,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286339,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1680268104337,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286340,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1680268912802,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286341,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1680268991867,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286342,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1680269012634,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286343,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1680269029393,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286344,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1680269068085,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286345,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1680269081082,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286346,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1680269238107,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286347,Chicken Lollipop,A chicken drumstick that has been Frenched,240,1,4.1,1680269254349,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Lollipop.jpg?alt=media&token=0e1854a9-a476-4950-8486-8e9c21101604
+1680962286348,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1679928329354,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286349,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1679977455746,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286350,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1679980561220,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286351,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1679983321188,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286352,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1680098024679,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286353,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1680267988540,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286354,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1680268002969,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286355,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1680268023554,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286356,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1680268055848,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286357,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1680268089050,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286358,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1680268104337,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286359,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1680268912802,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286360,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1680268991867,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286361,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1680269012634,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286362,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1680269029393,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286363,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1680269068085,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286364,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1680269081082,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286365,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1680269238107,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286366,Chiken Tikka [6 pieces],A boneless cubes marinated in yoghurt with red tandoori masala with indian spices,300,1,4.3,1680269254349,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-tikka%206.png?alt=media&token=936d6fc5-df09-4da0-84fe-2ca8a67bee65
+1680962286367,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1679928329354,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286368,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1679977455746,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286369,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1679980561220,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286370,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1679983321188,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286371,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1680098024679,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286372,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1680267988540,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286373,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1680268002969,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286374,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1680268023554,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286375,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1680268055848,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286376,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1680268089050,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286377,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1680268104337,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286378,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1680268912802,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286379,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1680268991867,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286380,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1680269012634,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286381,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1680269029393,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286382,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1680269068085,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286383,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1680269081082,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286384,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1680269238107,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286385,Chicken Tandoori,Cooked white whole Chicken in marinated in yoghurt with red tandoori masala,280,1,4.4,1680269254349,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Ftandoori.jpg?alt=media&token=8bcc369a-6113-4a9a-92e7-6e45d9b4afd3
+1680962286386,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1679928329354,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286387,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1679977455746,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286388,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1679980561220,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286389,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1679983321188,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286390,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1680098024679,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286391,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1680267988540,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286392,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1680268002969,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286393,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1680268023554,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286394,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1680268055848,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286395,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1680268089050,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286396,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1680268104337,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286397,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1680268912802,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286398,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1680268991867,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286399,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1680269012634,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286400,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1680269029393,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286401,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1680269068085,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286402,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1680269081082,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286403,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1680269238107,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286404,Chicken Handi,This is a delicious recipe where the chicken is cooked in yoghurt and tomato and a little cream is added towards the end too.,320,1,4.8,1680269254349,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken-handi.jpg?alt=media&token=09336b4e-c387-401e-ac24-484fad03e575
+1680962286405,Chicken Hakka Noodles,,240,1,3.2,1679928329354,"nonveg, food, dish, chicken",
+1680962286406,Chicken Hakka Noodles,,240,1,3.2,1679977455746,"nonveg, food, dish, chicken",
+1680962286407,Chicken Hakka Noodles,,240,1,3.2,1679980561220,"nonveg, food, dish, chicken",
+1680962286408,Chicken Hakka Noodles,,240,1,3.2,1679983321188,"nonveg, food, dish, chicken",
+1680962286409,Chicken Hakka Noodles,,240,1,3.2,1680098024679,"nonveg, food, dish, chicken",
+1680962286410,Chicken Hakka Noodles,,240,1,3.2,1680267988540,"nonveg, food, dish, chicken",
+1680962286411,Chicken Hakka Noodles,,240,1,3.2,1680268002969,"nonveg, food, dish, chicken",
+1680962286412,Chicken Hakka Noodles,,240,1,3.2,1680268023554,"nonveg, food, dish, chicken",
+1680962286413,Chicken Hakka Noodles,,240,1,3.2,1680268055848,"nonveg, food, dish, chicken",
+1680962286414,Chicken Hakka Noodles,,240,1,3.2,1680268089050,"nonveg, food, dish, chicken",
+1680962286415,Chicken Hakka Noodles,,240,1,3.2,1680268104337,"nonveg, food, dish, chicken",
+1680962286416,Chicken Hakka Noodles,,240,1,3.2,1680268912802,"nonveg, food, dish, chicken",
+1680962286417,Chicken Hakka Noodles,,240,1,3.2,1680268991867,"nonveg, food, dish, chicken",
+1680962286418,Chicken Hakka Noodles,,240,1,3.2,1680269012634,"nonveg, food, dish, chicken",
+1680962286419,Chicken Hakka Noodles,,240,1,3.2,1680269029393,"nonveg, food, dish, chicken",
+1680962286420,Chicken Hakka Noodles,,240,1,3.2,1680269068085,"nonveg, food, dish, chicken",
+1680962286421,Chicken Hakka Noodles,,240,1,3.2,1680269081082,"nonveg, food, dish, chicken",
+1680962286422,Chicken Hakka Noodles,,240,1,3.2,1680269238107,"nonveg, food, dish, chicken",
+1680962286423,Chicken Hakka Noodles,,240,1,3.2,1680269254349,"nonveg, food, dish, chicken",
+1680962286424,Chicken Manchurian,,200,1,3.8,1679928329354,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20manchurian%20gravy.png?alt=media&token=5270f5be-1bee-4dbd-926b-1c5b0c9eacb4
+1680962286425,Chicken Manchurian,,200,1,3.8,1679977455746,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20manchurian%20gravy.png?alt=media&token=5270f5be-1bee-4dbd-926b-1c5b0c9eacb4
+1680962286426,Chicken Manchurian,,200,1,3.8,1679980561220,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20manchurian%20gravy.png?alt=media&token=5270f5be-1bee-4dbd-926b-1c5b0c9eacb4
+1680962286427,Chicken Manchurian,,200,1,3.8,1679983321188,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20manchurian%20gravy.png?alt=media&token=5270f5be-1bee-4dbd-926b-1c5b0c9eacb4
+1680962286428,Chicken Manchurian,,200,1,3.8,1680098024679,"nonveg, food, dish, chicken",
+1680962286429,Chicken Manchurian,,200,1,3.8,1680267988540,"nonveg, food, dish, chicken",
+1680962286430,Chicken Manchurian,,200,1,3.8,1680268002969,"nonveg, food, dish, chicken",
+1680962286431,Chicken Manchurian,,200,1,3.8,1680268023554,"nonveg, food, dish, chicken",
+1680962286432,Chicken Manchurian,,200,1,3.8,1680268055848,"nonveg, food, dish, chicken",
+1680962286433,Chicken Manchurian,,200,1,3.8,1680268089050,"nonveg, food, dish, chicken",
+1680962286434,Chicken Manchurian,,200,1,3.8,1680268104337,"nonveg, food, dish, chicken",
+1680962286435,Chicken Manchurian,,200,1,3.8,1680268912802,"nonveg, food, dish, chicken",
+1680962286436,Chicken Manchurian,,200,1,3.8,1680268991867,"nonveg, food, dish, chicken",
+1680962286437,Chicken Manchurian,,200,1,3.8,1680269012634,"nonveg, food, dish, chicken",
+1680962286438,Chicken Manchurian,,200,1,3.8,1680269029393,"nonveg, food, dish, chicken",
+1680962286439,Chicken Manchurian,,200,1,3.8,1680269068085,"nonveg, food, dish, chicken",
+1680962286440,Chicken Manchurian,,200,1,3.8,1680269081082,"nonveg, food, dish, chicken",
+1680962286441,Chicken Manchurian,,200,1,3.8,1680269238107,"nonveg, food, dish, chicken",
+1680962286442,Chicken Manchurian,,200,1,3.8,1680269254349,"nonveg, food, dish, chicken",
+1680962286443,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1679928329354,"nonveg, food, dish, chicken",
+1680962286444,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1679977455746,"nonveg, food, dish, chicken",
+1680962286445,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1679980561220,"nonveg, food, dish, chicken",
+1680962286446,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1679983321188,"nonveg, food, dish, chicken",
+1680962286447,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1680098024679,"nonveg, food, dish, chicken",
+1680962286448,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1680267988540,"nonveg, food, dish, chicken",
+1680962286449,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1680268002969,"nonveg, food, dish, chicken",
+1680962286450,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1680268023554,"nonveg, food, dish, chicken",
+1680962286451,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1680268055848,"nonveg, food, dish, chicken",
+1680962286452,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1680268089050,"nonveg, food, dish, chicken",
+1680962286453,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1680268104337,"nonveg, food, dish, chicken",
+1680962286454,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1680268912802,"nonveg, food, dish, chicken",
+1680962286455,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1680268991867,"nonveg, food, dish, chicken",
+1680962286456,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1680269012634,"nonveg, food, dish, chicken",
+1680962286457,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1680269029393,"nonveg, food, dish, chicken",
+1680962286458,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1680269068085,"nonveg, food, dish, chicken",
+1680962286459,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1680269081082,"nonveg, food, dish, chicken",
+1680962286460,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1680269238107,"nonveg, food, dish, chicken",
+1680962286461,Chicken Chilly Dry,"Boneless chicken are marinated in soya sauce, chilli sauce and pepper",380,1,4.1,1680269254349,"nonveg, food, dish, chicken",
+1680962286462,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1679928329354,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286463,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1679977455746,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286464,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1679980561220,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286465,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1679983321188,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286466,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1680098024679,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286467,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1680267988540,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286468,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1680268002969,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286469,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1680268023554,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286470,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1680268055848,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286471,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1680268089050,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286472,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1680268104337,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286473,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1680268912802,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286474,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1680268991867,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286475,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1680269012634,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286476,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1680269029393,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286477,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1680269068085,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286478,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1680269081082,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286479,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1680269238107,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286480,Chicken Tikka Biryani,Tandoori chicken tikka cooked under pressure with long grain basmati rice,450,1,4.3,1680269254349,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fchicken%20tikka%20biryani.jpg?alt=media&token=af2c13f2-1069-40c2-98f4-b5a48c56c413
+1680962286481,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1679928329354,"nonveg, food, dish, chicken",
+1680962286482,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1679977455746,"nonveg, food, dish, chicken",
+1680962286483,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1679980561220,"nonveg, food, dish, chicken",
+1680962286484,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1679983321188,"nonveg, food, dish, chicken",
+1680962286485,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1680098024679,"nonveg, food, dish, chicken",
+1680962286486,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1680267988540,"nonveg, food, dish, chicken",
+1680962286487,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1680268002969,"nonveg, food, dish, chicken",
+1680962286488,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1680268023554,"nonveg, food, dish, chicken",
+1680962286489,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1680268055848,"nonveg, food, dish, chicken",
+1680962286490,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1680268089050,"nonveg, food, dish, chicken",
+1680962286491,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1680268104337,"nonveg, food, dish, chicken",
+1680962286492,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1680268912802,"nonveg, food, dish, chicken",
+1680962286493,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1680268991867,"nonveg, food, dish, chicken",
+1680962286494,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1680269012634,"nonveg, food, dish, chicken",
+1680962286495,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1680269029393,"nonveg, food, dish, chicken",
+1680962286496,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1680269068085,"nonveg, food, dish, chicken",
+1680962286497,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1680269081082,"nonveg, food, dish, chicken",
+1680962286498,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1680269238107,"nonveg, food, dish, chicken",
+1680962286499,Boneless Chilli Chicken,"Deep fried chicken toassed in soya base gravy with garlic. green chilli, & spring onion",215,1,4.6,1680269254349,"nonveg, food, dish, chicken",
+1680962286500,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1679928329354,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286501,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1679977455746,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286502,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1679980561220,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286503,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1679983321188,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286504,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1680098024679,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286505,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1680267988540,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286506,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1680268002969,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286507,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1680268023554,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286508,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1680268055848,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286509,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1680268089050,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286510,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1680268104337,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286511,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1680268912802,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286512,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1680268991867,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286513,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1680269012634,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286514,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1680269029393,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286515,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1680269068085,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286516,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1680269081082,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286517,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1680269238107,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcombo.jpg?alt=media&token=79961c75-d7af-44ff-bc74-75d9df2ddef4
+1680962286518,Chicken Triple Schezwan Rice Combo [Serves 2],"Triple rice is complete meal with combination of rice, noodles mix which is served with spicy",450,1,4.3,1680269254349,"nonveg, food, dish, chicken",
+1680962286519,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1679928329354,"nonveg, food, dish, chicken,soup",
+1680962286520,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1679977455746,"nonveg, food, dish, chicken,soup",
+1680962286521,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1679980561220,"nonveg, food, dish, chicken,soup",
+1680962286522,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1679983321188,"nonveg, food, dish, chicken,soup",
+1680962286523,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1680098024679,"nonveg, food, dish, chicken,soup",
+1680962286524,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1680267988540,"nonveg, food, dish, chicken,soup",
+1680962286525,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1680268002969,"nonveg, food, dish, chicken,soup",
+1680962286526,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1680268023554,"nonveg, food, dish, chicken,soup",
+1680962286527,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1680268055848,"nonveg, food, dish, chicken,soup",
+1680962286528,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1680268089050,"nonveg, food, dish, chicken,soup",
+1680962286529,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1680268104337,"nonveg, food, dish, chicken,soup",
+1680962286530,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1680268912802,"nonveg, food, dish, chicken,soup",
+1680962286531,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1680268991867,"nonveg, food, dish, chicken,soup",
+1680962286532,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1680269012634,"nonveg, food, dish, chicken,soup",
+1680962286533,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1680269029393,"nonveg, food, dish, chicken,soup",
+1680962286534,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1680269068085,"nonveg, food, dish, chicken,soup",
+1680962286535,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1680269081082,"nonveg, food, dish, chicken,soup",
+1680962286536,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1680269238107,"nonveg, food, dish, chicken,soup",
+1680962286537,Chicken Manchow Soup,Soup prepared with chicken simmered in hot spicy thick stock and topped with fried noodles,180,1,4.2,1680269254349,"nonveg, food, dish, chicken,soup",
+1680962286538,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1679928329354,"nonveg, food, dish, chicken",
+1680962286539,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1679977455746,"nonveg, food, dish, chicken",
+1680962286540,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1679980561220,"nonveg, food, dish, chicken",
+1680962286541,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1679983321188,"nonveg, food, dish, chicken",
+1680962286542,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1680098024679,"nonveg, food, dish, chicken",
+1680962286543,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1680267988540,"nonveg, food, dish, chicken",
+1680962286544,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1680268002969,"nonveg, food, dish, chicken",
+1680962286545,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1680268023554,"nonveg, food, dish, chicken",
+1680962286546,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1680268055848,"nonveg, food, dish, chicken",
+1680962286547,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1680268089050,"nonveg, food, dish, chicken",
+1680962286548,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1680268104337,"nonveg, food, dish, chicken",
+1680962286549,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1680268912802,"nonveg, food, dish, chicken",
+1680962286550,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1680268991867,"nonveg, food, dish, chicken",
+1680962286551,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1680269012634,"nonveg, food, dish, chicken",
+1680962286552,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1680269029393,"nonveg, food, dish, chicken",
+1680962286553,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1680269068085,"nonveg, food, dish, chicken",
+1680962286554,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1680269081082,"nonveg, food, dish, chicken",
+1680962286555,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1680269238107,"nonveg, food, dish, chicken",
+1680962286556,Chicken Manchurian Gravy,Diced chicken balls sauteed in your classic manchurian gravy to be eat with rice,240,1,4.3,1680269254349,"nonveg, food, dish, chicken",
+1680962286557,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1679928329354,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286558,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1679977455746,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286559,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1679980561220,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286560,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1679983321188,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286561,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1680098024679,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286562,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1680267988540,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286563,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1680268002969,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286564,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1680268023554,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286565,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1680268055848,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286566,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1680268089050,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286567,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1680268104337,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286568,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1680268912802,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286569,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1680268991867,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286570,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1680269012634,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286571,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1680269029393,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286572,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1680269068085,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286573,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1680269081082,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286574,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1680269238107,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286575,Egg Fried Rice,Rice stir fried with egg and vegetables in sauces and garlic,210,1,3.5,1680269254349,"nonveg, food, dish,egg",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fegg%20chicken.jpg?alt=media&token=00c1ab8e-2bf4-4018-8635-41007f95eb7a
+1680962286576,Chicken Manchurian Rice Combo,,280,1,2.9,1679928329354,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286577,Chicken Manchurian Rice Combo,,280,1,2.9,1679977455746,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286578,Chicken Manchurian Rice Combo,,280,1,2.9,1679980561220,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286579,Chicken Manchurian Rice Combo,,280,1,2.9,1679983321188,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286580,Chicken Manchurian Rice Combo,,280,1,2.9,1680098024679,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286581,Chicken Manchurian Rice Combo,,280,1,2.9,1680267988540,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286582,Chicken Manchurian Rice Combo,,280,1,2.9,1680268002969,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286583,Chicken Manchurian Rice Combo,,280,1,2.9,1680268023554,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286584,Chicken Manchurian Rice Combo,,280,1,2.9,1680268055848,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286585,Chicken Manchurian Rice Combo,,280,1,2.9,1680268089050,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286586,Chicken Manchurian Rice Combo,,280,1,2.9,1680268104337,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286587,Chicken Manchurian Rice Combo,,280,1,2.9,1680268912802,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286588,Chicken Manchurian Rice Combo,,280,1,2.9,1680268991867,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286589,Chicken Manchurian Rice Combo,,280,1,2.9,1680269012634,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286590,Chicken Manchurian Rice Combo,,280,1,2.9,1680269029393,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286591,Chicken Manchurian Rice Combo,,280,1,2.9,1680269068085,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286592,Chicken Manchurian Rice Combo,,280,1,2.9,1680269081082,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286593,Chicken Manchurian Rice Combo,,280,1,2.9,1680269238107,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286594,Chicken Manchurian Rice Combo,,280,1,2.9,1680269254349,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmanchurian%20rice%20combo.jpg?alt=media&token=48355c6c-4cc1-42e1-ac38-795020c956aa
+1680962286595,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1679928329354,"nonveg, food, dish,chicken,soup",
+1680962286596,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1679977455746,"nonveg, food, dish,chicken,soup",
+1680962286597,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1679980561220,"nonveg, food, dish,chicken,soup",
+1680962286598,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1679983321188,"nonveg, food, dish,chicken,soup",
+1680962286599,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1680098024679,"nonveg, food, dish,chicken,soup",
+1680962286600,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1680267988540,"nonveg, food, dish,chicken,soup",
+1680962286601,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1680268002969,"nonveg, food, dish,chicken,soup",
+1680962286602,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1680268023554,"nonveg, food, dish,chicken,soup",
+1680962286603,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1680268055848,"nonveg, food, dish,chicken,soup",
+1680962286604,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1680268089050,"nonveg, food, dish,chicken,soup",
+1680962286605,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1680268104337,"nonveg, food, dish,chicken,soup",
+1680962286606,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1680268912802,"nonveg, food, dish,chicken,soup",
+1680962286607,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1680268991867,"nonveg, food, dish,chicken,soup",
+1680962286608,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1680269012634,"nonveg, food, dish,chicken,soup",
+1680962286609,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1680269029393,"nonveg, food, dish,chicken,soup",
+1680962286610,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1680269068085,"nonveg, food, dish,chicken,soup",
+1680962286611,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1680269081082,"nonveg, food, dish,chicken,soup",
+1680962286612,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1680269238107,"nonveg, food, dish,chicken,soup",
+1680962286613,Chicken Clear Soup,Served with crispy noodles and schezwan sauce,180,1,4.2,1680269254349,"nonveg, food, dish,chicken,soup",
+1680962286614,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1679928329354,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286615,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1679977455746,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286616,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1679980561220,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286617,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1679983321188,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286618,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1680098024679,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286619,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1680267988540,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286620,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1680268002969,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286621,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1680268023554,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286622,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1680268055848,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286623,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1680268089050,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286624,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1680268104337,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286625,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1680268912802,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286626,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1680268991867,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286627,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1680269012634,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286628,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1680269029393,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286629,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1680269068085,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286630,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1680269081082,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286631,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1680269238107,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286632,Chicken Mushroom Clear Soup,Served with crispy noodles and schezwan sauce,190,1,4.1,1680269254349,"nonveg, food, dish,chicken, mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fmushroom%20soup.jpg?alt=media&token=7f39a8af-c8c3-40c4-88b7-846b6fef7c12
+1680962286633,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1679928329354,"nonveg, food, dish,chicken",
+1680962286634,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1679977455746,"nonveg, food, dish,chicken",
+1680962286635,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1679980561220,"nonveg, food, dish,chicken",
+1680962286636,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1679983321188,"nonveg, food, dish,chicken",
+1680962286637,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1680098024679,"nonveg, food, dish,chicken",
+1680962286638,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1680267988540,"nonveg, food, dish,chicken",
+1680962286639,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1680268002969,"nonveg, food, dish,chicken",
+1680962286640,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1680268023554,"nonveg, food, dish,chicken",
+1680962286641,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1680268055848,"nonveg, food, dish,chicken",
+1680962286642,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1680268089050,"nonveg, food, dish,chicken",
+1680962286643,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1680268104337,"nonveg, food, dish,chicken",
+1680962286644,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1680268912802,"nonveg, food, dish,chicken",
+1680962286645,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1680268991867,"nonveg, food, dish,chicken",
+1680962286646,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1680269012634,"nonveg, food, dish,chicken",
+1680962286647,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1680269029393,"nonveg, food, dish,chicken",
+1680962286648,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1680269068085,"nonveg, food, dish,chicken",
+1680962286649,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1680269081082,"nonveg, food, dish,chicken",
+1680962286650,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1680269238107,"nonveg, food, dish,chicken",
+1680962286651,Boneless Butter Chicken,"Boneless chicken marinated first grilled and served in a rich gravy made with tomato, butter and a special masala",310,1,4.3,1680269254349,"nonveg, food, dish,chicken",
+1680962286652,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1679928329354,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286653,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1679977455746,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286654,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1679980561220,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286655,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1679983321188,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286656,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1680098024679,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286657,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1680267988540,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286658,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1680268002969,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286659,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1680268023554,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286660,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1680268055848,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286661,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1680268089050,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286662,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1680268104337,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286663,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1680268912802,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286664,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1680268991867,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286665,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1680269012634,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286666,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1680269029393,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286667,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1680269068085,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286668,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1680269081082,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286669,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1680269238107,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286670,Chicken Crispy,"Deep fried chicken in a chinese style sauce, perfect starter to make your mouth water ",250,1,4.0,1680269254349,"nonveg, food, dish,chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fcrispy.jpg?alt=media&token=728d2ff7-4aa9-4cc1-82d7-cbefdd4b73fe
+1680962286671,24 Hour Garlic Bread,"Crispy Baguette, Roasted Garlic Butter",350,0,4.1,1680268928702,"veg, food, dish,bread",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2F24%20Hour%20Garlic%20Bread.jpg?alt=media&token=fc43d732-131f-4454-93e3-d9683e873caa
+1680962286672,Loaded Nachos,"Pico De Grills, and inhouse cheese sauce. Add On Grilled Chicken",350,0,4.5,1680268928702,"veg, food, dish",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FLoaded%20Nachos.jpg?alt=media&token=e9f0a59d-9d50-414e-a022-e65e30686b29
+1680962286673,BBQ Corn Ribs,with homemade bbq sauce,350,0,3.6,1680268928702,"veg, food, dish, corn",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FBBQ%20Corn%20Ribs.jpg?alt=media&token=160ac1eb-3cf5-4c3c-a2f4-bfeb4a6ced4d
+1680962286674,Butter Garlic Prawns,with sizzling butter garlic sauce,375,1,3.8,1680268928702,"nonveg, food, dish,fish",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FButter%20Garlic%20Prawns.jpg?alt=media&token=2c6f1920-b6b4-4a0c-b956-7291471554cc
+1680962286675,Mushrooms Tarts,"with trio mushroom sauce, onion pearls",400,0,4.2,1680268928702,"veg, food, dish,mushroom",
+1680962286676,Cream of Tomato Soup,,450,0,4.3,1680268928702,"veg, food, dish,soup",
+1680962286677,Mushroom Cappuccino,,550,1,2.8,1680268928702,"veg, food, dish,mushroom, soup",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FMushroom%20Cappuccino.jpg?alt=media&token=a8b9a0fd-9128-41a5-88cc-099459e830df
+1680962286678,Bacon and Mint Pea,with pepper wiped,470,1,4.9,1680268928702,"nonveg, food, dish, bacon",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FBacon%20and%20Mint%20Pea.jpg?alt=media&token=f7e57876-9256-45ed-9f7f-03ce5357f446
+1680962286679,Shepards Pie,Served with red wine reduction,550,1,4.6,1680268928702,"nonveg, food, dish",
+1680962286680,Chicken Hawaiian Salad,with honey chilli dressing,350,1,3.1,1680268928702,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Hawaiian%20Salad.jpg?alt=media&token=b743be1b-8d1b-4f9a-827e-ca2e2321b44d
+1680962286681,Bacon and Mint Pea Soup,,400,1,3.3,1680268928702,"nonveg, food, dish,soup, bacon",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FBacon%20and%20Mint%20Pea%20Soup.jpg?alt=media&token=c8c0ea7c-40a8-43d1-9c48-8415613eee09
+1680962286682,Birria Pulled Lamb Tacos,with chipotle chilli sauce,375,1,4.6,1680268928702,"nonveg, food, dish",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FBirria%20Pulled%20Lamb%20Tacos.jpg?alt=media&token=32e1d918-3845-4dcd-8684-b65d519adf69
+1680962286683,Cajun Prawns Tostadas,with cajun mole,250,1,5,1680268928702,"nonveg, food, dish,fish",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FCajun%20Prawns%20Tostadas.jpg?alt=media&token=d66844df-d0f4-4bad-8a82-d190af38db01
+1680962286684,Chicken Popcorn,with fiery hot sauce,425,1,4.9,1680268928702,"nonveg, food, dish, chicken",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FChicken%20Popcorn.jpg?alt=media&token=834e4ac6-b605-42c1-bbae-f0b986a693f2
+1680962286685,Grilled Fish Pomme Puree,with orange beurre blanc,560,1,3.9,1680268928702,"nonveg, food, dish,fish",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FGrilled%20Fish%20Pomme%20Puree.jpg?alt=media&token=f0f8460d-3e9b-49fc-8ca8-a1216298d3da
+1680962286686,Beer Battered Fish & Chips,Served with tartare sauce and house cut fries.,420,1,5,1680268928702,"nonveg, food, dish,fish",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FBeer%20Battered%20Fish%20%26%20Chips.jpg?alt=media&token=ff9dec37-3b1d-4185-8ec8-7ffa93bd5619
+1680962286687,Prawns Tortellini,Served with special carrot puree and chilli pangrattato,350,1,4.1,1680268928702,"nonveg, food, dish,fish",
+1680962286688,Souffle Pancake,Served with cinnnamom butter and homemade apple sauce.,400,0,3.4,1680268928702,"veg, food, dish",
+1680962286689,Marghrita Pizza,cheese and tomato,200,0,2.9,,"veg, pizza",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FMarghrita%20Pizza.jpg?alt=media&token=f512c8f5-145f-4ad6-94f3-02e10e7c034d
+1680962286690,Marghrita Pizza,cheese and tomato,200,0,2.9,,"veg, pizza",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FMarghrita%20Pizza.jpg?alt=media&token=f512c8f5-145f-4ad6-94f3-02e10e7c034d
+1680962286691,Mushroom and Cream Cheese Pizza,"herb sauteed exotic mushroom, cream cheese",365,0,3.5,,"veg, pizza",
+1680962286692,Mushroom and Cream Cheese Pizza,"herb sauteed exotic mushroom, cream cheese",365,0,3.5,,"veg, pizza",
+1680962286693,Swiss Cottage Cheese Pizza,"marzano tomato, paneer tikka, pepper, hot paprika,and cheese",375,0,4.1,,"veg, pizza",
+1680962286694,Swiss Cottage Cheese Pizza,"marzano tomato, paneer tikka, pepper, hot paprika,and cheese",375,0,4.1,,"veg, pizza",
+1680962286695,Farmers Market,"tomato cheese, mozzarello cheese, button mushroom, green capsicum, roasted onion",295,0,4.3,,"veg, pizza",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FFarmers%20Market%20Pizza.jpg?alt=media&token=d4a7e61c-cf14-4923-a9df-8587531aae3b
+1680962286696,Farmers Market,"tomato cheese, mozzarello cheese, button mushroom, green capsicum, roasted onion",295,0,4.3,,"veg, pizza",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FFarmers%20Market%20Pizza.jpg?alt=media&token=d4a7e61c-cf14-4923-a9df-8587531aae3b
+1680962286697,Mexican Pizza,"roasted bell pepper, wild mushroom, onion, tomato sauce",375,0,4.1,,"veg, pizza",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FMexican%20Pizza.jpg?alt=media&token=54b8ab20-44be-48c9-a3f4-f277d085e83f
+1680962286698,Mexican Pizza,"roasted bell pepper, wild mushroom, onion, tomato sauce",375,0,4.1,,"veg, pizza",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FMexican%20Pizza.jpg?alt=media&token=54b8ab20-44be-48c9-a3f4-f277d085e83f
+1680962286699,Cheese Garlic Bread,"garlic oil, mozzarella cheese, parmesan",225,0,4.2,,"veg, pizza",
+1680962286700,Cheese Garlic Bread,"garlic oil, mozzarella cheese, parmesan",225,0,4.2,,"veg, pizza",
+1680962286701,Veggie Paradise Pizza,"golden corn, black olives, capsicum, red praprika",270,0,3.6,,"veg, pizza",
+1680962286702,Veggie Paradise Pizza,"golden corn, black olives, capsicum, red praprika",270,0,3.6,,"veg, pizza",
+1680962286703,Cheese and Corn Pizza,delecatable combination sweet & juicy golden corn,220,0,4.6,,"veg, pizza",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FCheese%20and%20Corn%20Pizza.jpg?alt=media&token=52ac75a1-75a6-44e4-839d-5d8d33657bd3
+1680962286704,Cheese and Corn Pizza,delecatable combination sweet & juicy golden corn,220,0,4.6,,"veg, pizza",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2FCheese%20and%20Corn%20Pizza.jpg?alt=media&token=52ac75a1-75a6-44e4-839d-5d8d33657bd3
+1680962286705,Tandoori Paneer Pizza,"tandoori paneer with capsicum, red paprika, mint mayo",320,0,4.3,,"veg, pizza",
+1680962286706,Tandoori Paneer Pizza,"tandoori paneer with capsicum, red paprika, mint mayo",320,0,4.3,,"veg, pizza",
+1680962286707,Supreme Veg Pizza,,350,0,4.3,,"veg, pizza",
+1680962286708,Supreme Veg Pizza,,350,0,4.3,,"veg, pizza",
+1680962286709,Veg Pizza,,280,0,4.8,,"veg, pizza",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fveg%20pizza.jpg?alt=media&token=ea8af126-1309-4c3c-b981-a9d18e24dc77
+1680962286710,Veg Pizza,,280,0,4.8,,"veg, pizza",https://firebasestorage.googleapis.com/v0/b/nearesto.appspot.com/o/nearesto%2Ffood_items%2Fveg%20pizza.jpg?alt=media&token=ea8af126-1309-4c3c-b981-a9d18e24dc77
+1680962286711,,,,0,,,"veg, pizza",
+1680962286712,,,,0,,,"veg, pizza",
+1680962286713,,,,0,,,"veg, pizza",
+1680962286714,,,,0,,,"veg, pizza",
+1680962286715,,,,0,,,"veg, pizza",
+1680962286716,,,,0,,,"veg, pizza",
+1680962286717,,,,0,,,"veg, pizza",
+1680962286718,,,,0,,,"veg, pizza",
+1680962286719,,,,0,,,"veg, pizza",
+1680962286720,,,,0,,,"veg, pizza",
+1680962286721,,,,0,,,"veg, pizza",
+1680962286722,,,,0,,,"veg, pizza",
+1680962286723,,,,0,,,"veg, pizza",
+1680962286724,,,,0,,,"veg, pizza",
+1680962286725,,,,0,,,"veg, pizza",
+1680962286726,,,,0,,,"veg, pizza",
+1680962286727,,,,0,,,"veg, pizza",
+1680962286728,,,,0,,,"veg, pizza",
+1680962286729,,,,,,,"veg, pizza",
+1680962286730,,,,,,,"veg, pizza",
+1680962286731,,,,,,,"veg, pizza",
+1680962286732,,,,,,,"veg, pizza",
+1680962286733,,,,,,,"veg, pizza",
+1680962286734,,,,,,,"veg, pizza",
+1680962286735,,,,,,,"veg, pizza",
+1680962286736,,,,,,,"veg, pizza",
+1680962286737,,,,,,,"veg, pizza",
+1680962286738,,,,,,,"veg, pizza",
+1680962286739,,,,,,,"veg, pizza",
+1680962286740,,,,,,,"veg, pizza",
+1680962286741,,,,,,,"veg, pizza",
+1680962286742,,,,,,,"veg, pizza",
+1680962286743,,,,,,,"veg, pizza",
+1680962286744,,,,,,,"veg, pizza",
+1680962286745,,,,,,,"veg, pizza",
+1680962286746,,,,,,,"veg, pizza",
+1680962286747,,,,,,,"veg, pizza",
+1680962286748,,,,,,,"veg, pizza",
+1680962286749,,,,,,,"veg, pizza",
+1680962286750,,,,,,,"veg, pizza",
+1680962286751,,,,,,,,
+1680962286752,,,,,,,,
+1680962286753,,,,,,,,
+1680962286754,,,,,,,,
+1680962286755,,,,,,,,
+1680962286756,,,,,,,,
+1680962286757,,,,,,,,
+1680962286758,,,,,,,,
+1680962286759,,,,,,,,
+1680962286760,,,,,,,,
+1680962286761,,,,,,,,
+1680962286762,,,,,,,,
+1680962286763,,,,,,,,
+1680962286764,,,,,,,,
+1680962286765,,,,,,,,
+1680962286766,,,,,,,,
+1680962286767,,,,,,,,
+1680962286768,,,,,,,,
+1680962286769,,,,,,,,
+1680962286770,,,,,,,,
+1680962286771,,,,,,,,
+1680962286772,,,,,,,,
+1680962286773,,,,,,,,
+1680962286774,,,,,,,,
+1680962286775,,,,,,,,
+1680962286776,,,,,,,,
+1680962286777,,,,,,,,
+1680962286778,,,,,,,,
+1680962286779,,,,,,,,
+1680962286780,,,,,,,,
+1680962286781,,,,,,,,
+1680962286782,,,,,,,,
+1680962286783,,,,,,,,
+1680962286784,,,,,,,,
+1680962286785,,,,,,,,
+1680962286786,,,,,,,,
+1680962286787,,,,,,,,
+1680962286788,,,,,,,,
+1680962286789,,,,,,,,
+1680962286790,,,,,,,,
+1680962286791,,,,,,,,
+1680962286792,,,,,,,,
+1680962286793,,,,,,,,
+1680962286794,,,,,,,,
+1680962286795,,,,,,,,
+1680962286796,,,,,,,,
+1680962286797,,,,,,,,
+1680962286798,,,,,,,,
+1680962286799,,,,,,,,
+1680962286800,,,,,,,,
+1680962286801,,,,,,,,
+1680962286802,,,,,,,,
+1680962286803,,,,,,,,
+1680962286804,,,,,,,,
+1680962286805,,,,,,,,
+1680962286806,,,,,,,,
+1680962286807,,,,,,,,
+1680962286808,,,,,,,,
+1680962286809,,,,,,,,
+1680962286810,,,,,,,,
+1680962286811,,,,,,,,
+1680962286812,,,,,,,,
+1680962286813,,,,,,,,
+1680962286814,,,,,,,,
+1680962286815,,,,,,,,
+1680962286816,,,,,,,,
+1680962286817,,,,,,,,
+1680962286818,,,,,,,,
+1680962286819,,,,,,,,
+1680962286820,,,,,,,,
+1680962286821,,,,,,,,
+1680962286822,,,,,,,,
+1680962286823,,,,,,,,
+1680962286824,,,,,,,,
+1680962286825,,,,,,,,
+1680962286826,,,,,,,,
+1680962286827,,,,,,,,
+1680962286828,,,,,,,,
+1680962286829,,,,,,,,
+1680962286830,,,,,,,,
+1680962286831,,,,,,,,
+1680962286832,,,,,,,,
+1680962286833,,,,,,,,
+1680962286834,,,,,,,,
+1680962286835,,,,,,,,
+1680962286836,,,,,,,,
+1680962286837,,,,,,,,
+1680962286838,,,,,,,,
+1680962286839,,,,,,,,
+1680962286840,,,,,,,,
+1680962286841,,,,,,,,
+1680962286842,,,,,,,,
+1680962286843,,,,,,,,
+1680962286844,,,,,,,,
+1680962286845,,,,,,,,
+1680962286846,,,,,,,,
+1680962286847,,,,,,,,
+1680962286848,,,,,,,,
+1680962286849,,,,,,,,
+1680962286850,,,,,,,,
+1680962286851,,,,,,,,
+1680962286852,,,,,,,,
+1680962286853,,,,,,,,
+1680962286854,,,,,,,,
+1680962286855,,,,,,,,
+1680962286856,,,,,,,,
+1680962286857,,,,,,,,
+1680962286858,,,,,,,,
+1680962286859,,,,,,,,
+1680962286860,,,,,,,,
+1680962286861,,,,,,,,
+1680962286862,,,,,,,,
+1680962286863,,,,,,,,
+1680962286864,,,,,,,,
+1680962286865,,,,,,,,
+1680962286866,,,,,,,,
+1680962286867,,,,,,,,
+1680962286868,,,,,,,,
+1680962286869,,,,,,,,
+1680962286870,,,,,,,,
+1680962286871,,,,,,,,
+1680962286872,,,,,,,,
+1680962286873,,,,,,,,
+1680962286874,,,,,,,,
+1680962286875,,,,,,,,
+1680962286876,,,,,,,,
+1680962286877,,,,,,,,
+1680962286878,,,,,,,,
+1680962286879,,,,,,,,
+1680962286880,,,,,,,,
+1680962286881,,,,,,,,
+1680962286882,,,,,,,,
+1680962286883,,,,,,,,
+1680962286884,,,,,,,,
+1680962286885,,,,,,,,
+1680962286886,,,,,,,,
+1680962286887,,,,,,,,
+1680962286888,,,,,,,,
+1680962286889,,,,,,,,
+1680962286890,,,,,,,,
+1680962286891,,,,,,,,
+1680962286892,,,,,,,,
+1680962286893,,,,,,,,
+1680962286894,,,,,,,,
+1680962286895,,,,,,,,
+1680962286896,,,,,,,,
+1680962286897,,,,,,,,
+1680962286898,,,,,,,,
+1680962286899,,,,,,,,
+1680962286900,,,,,,,,
+1680962286901,,,,,,,,
+1680962286902,,,,,,,,
+1680962286903,,,,,,,,
+1680962286904,,,,,,,,
+1680962286905,,,,,,,,
+1680962286906,,,,,,,,
+1680962286907,,,,,,,,
+1680962286908,,,,,,,,
+1680962286909,,,,,,,,
+1680962286910,,,,,,,,
+1680962286911,,,,,,,,
+1680962286912,,,,,,,,
+1680962286913,,,,,,,,
+1680962286914,,,,,,,,
+1680962286915,,,,,,,,
+1680962286916,,,,,,,,
+1680962286917,,,,,,,,
+1680962286918,,,,,,,,
+1680962286919,,,,,,,,
+1680962286920,,,,,,,,
+1680962286921,,,,,,,,
+1680962286922,,,,,,,,
+1680962286923,,,,,,,,
+1680962286924,,,,,,,,
+1680962286925,,,,,,,,
+1680962286926,,,,,,,,
+1680962286927,,,,,,,,
+1680962286928,,,,,,,,
+1680962286929,,,,,,,,
+1680962286930,,,,,,,,
+1680962286931,,,,,,,,
+1680962286932,,,,,,,,
+1680962286933,,,,,,,,
+1680962286934,,,,,,,,
+1680962286935,,,,,,,,
+1680962286936,,,,,,,,
+1680962286937,,,,,,,,
+1680962286938,,,,,,,,
+1680962286939,,,,,,,,
+1680962286940,,,,,,,,
+1680962286941,,,,,,,,
+1680962286942,,,,,,,,
+1680962286943,,,,,,,,
+1680962286944,,,,,,,,
+1680962286945,,,,,,,,
+1680962286946,,,,,,,,
+1680962286947,,,,,,,,
+1680962286948,,,,,,,,
+1680962286949,,,,,,,,
+1680962286950,,,,,,,,
+1680962286951,,,,,,,,
+1680962286952,,,,,,,,
+1680962286953,,,,,,,,
+1680962286954,,,,,,,,
+1680962286955,,,,,,,,
+1680962286956,,,,,,,,
+1680962286957,,,,,,,,
+1680962286958,,,,,,,,
+1680962286959,,,,,,,,
+1680962286960,,,,,,,,
+1680962286961,,,,,,,,
+1680962286962,,,,,,,,
+1680962286963,,,,,,,,
+1680962286964,,,,,,,,
+1680962286965,,,,,,,,
+1680962286966,,,,,,,,
+1680962286967,,,,,,,,
+1680962286968,,,,,,,,
+1680962286969,,,,,,,,
+1680962286970,,,,,,,,
+1680962286971,,,,,,,,
+1680962286972,,,,,,,,
+1680962286973,,,,,,,,
+1680962286974,,,,,,,,
+1680962286975,,,,,,,,
+1680962286976,,,,,,,,
+1680962286977,,,,,,,,
+1680962286978,,,,,,,,
+1680962286979,,,,,,,,
+1680962286980,,,,,,,,
+1680962286981,,,,,,,,
+1680962286982,,,,,,,,
+1680962286983,,,,,,,,
+1680962286984,,,,,,,,
+1680962286985,,,,,,,,
+1680962286986,,,,,,,,
+1680962286987,,,,,,,,
+1680962286988,,,,,,,,
+1680962286989,,,,,,,,
+1680962286990,,,,,,,,
+1680962286991,,,,,,,,
+1680962286992,,,,,,,,
+1680962286993,,,,,,,,
+1680962286994,,,,,,,,
+1680962286995,,,,,,,,
+1680962286996,,,,,,,,
+1680962286997,,,,,,,,
+1680962286998,,,,,,,,
+1680962286999,,,,,,,,
+1680962287000,,,,,,,,
+1680962287001,,,,,,,,
+1680962287002,,,,,,,,
+1680962287003,,,,,,,,
+1680962287004,,,,,,,,
+1680962287005,,,,,,,,
+1680962287006,,,,,,,,
+1680962287007,,,,,,,,
+1680962287008,,,,,,,,
+1680962287009,,,,,,,,
+1680962287010,,,,,,,,
+1680962287011,,,,,,,,
+1680962287012,,,,,,,,
+1680962287013,,,,,,,,
+1680962287014,,,,,,,,
+1680962287015,,,,,,,,
+1680962287016,,,,,,,,
+1680962287017,,,,,,,,
+1680962287018,,,,,,,,
+1680962287019,,,,,,,,
+1680962287020,,,,,,,,
+1680962287021,,,,,,,,
+1680962287022,,,,,,,,
+1680962287023,,,,,,,,
+1680962287024,,,,,,,,
+1680962287025,,,,,,,,
+1680962287026,,,,,,,,
+1680962287027,,,,,,,,
+1680962287028,,,,,,,,
+1680962287029,,,,,,,,
+1680962287030,,,,,,,,
+1680962287031,,,,,,,,
+1680962287032,,,,,,,,
+1680962287033,,,,,,,,
+1680962287034,,,,,,,,
+1680962287035,,,,,,,,
+1680962287036,,,,,,,,
+1680962287037,,,,,,,,
+1680962287038,,,,,,,,
+1680962287039,,,,,,,,
+1680962287040,,,,,,,,
+1680962287041,,,,,,,,
+1680962287042,,,,,,,,
+1680962287043,,,,,,,,
+1680962287044,,,,,,,,
+1680962287045,,,,,,,,
+1680962287046,,,,,,,,
+1680962287047,,,,,,,,
+1680962287048,,,,,,,,
+1680962287049,,,,,,,,
+1680962287050,,,,,,,,
+1680962287051,,,,,,,,
+1680962287052,,,,,,,,
+1680962287053,,,,,,,,
+1680962287054,,,,,,,,
+1680962287055,,,,,,,,
+1680962287056,,,,,,,,
+1680962287057,,,,,,,,
+1680962287058,,,,,,,,
+1680962287059,,,,,,,,
+1680962287060,,,,,,,,
+1680962287061,,,,,,,,
+1680962287062,,,,,,,,
+1680962287063,,,,,,,,
+1680962287064,,,,,,,,
+1680962287065,,,,,,,,
+1680962287066,,,,,,,,
+1680962287067,,,,,,,,
+1680962287068,,,,,,,,
+1680962287069,,,,,,,,
+1680962287070,,,,,,,,
+1680962287071,,,,,,,,
+1680962287072,,,,,,,,
+1680962287073,,,,,,,,
+1680962287074,,,,,,,,
+1680962287075,,,,,,,,
+1680962287076,,,,,,,,
+1680962287077,,,,,,,,
+1680962287078,,,,,,,,
+1680962287079,,,,,,,,
+1680962287080,,,,,,,,
+1680962287081,,,,,,,,
+1680962287082,,,,,,,,
+1680962287083,,,,,,,,
+1680962287084,,,,,,,,
+1680962287085,,,,,,,,
+1680962287086,,,,,,,,
+1680962287087,,,,,,,,
+1680962287088,,,,,,,,
+1680962287089,,,,,,,,
+1680962287090,,,,,,,,
+1680962287091,,,,,,,,
+1680962287092,,,,,,,,
+1680962287093,,,,,,,,
+1680962287094,,,,,,,,
+1680962287095,,,,,,,,
+1680962287096,,,,,,,,
+1680962287097,,,,,,,,
+1680962287098,,,,,,,,
+1680962287099,,,,,,,,
+1680962287100,,,,,,,,
+1680962287101,,,,,,,,
+1680962287102,,,,,,,,
+1680962287103,,,,,,,,
+1680962287104,,,,,,,,
+1680962287105,,,,,,,,
+1680962287106,,,,,,,,
+1680962287107,,,,,,,,
+1680962287108,,,,,,,,
+1680962287109,,,,,,,,
+1680962287110,,,,,,,,
+1680962287111,,,,,,,,
+1680962287112,,,,,,,,
+1680962287113,,,,,,,,
+1680962287114,,,,,,,,
+1680962287115,,,,,,,,
+1680962287116,,,,,,,,
+1680962287117,,,,,,,,
+1680962287118,,,,,,,,
+1680962287119,,,,,,,,
+1680962287120,,,,,,,,
+1680962287121,,,,,,,,
+1680962287122,,,,,,,,
+1680962287123,,,,,,,,
+1680962287124,,,,,,,,
+1680962287125,,,,,,,,
+1680962287126,,,,,,,,
+1680962287127,,,,,,,,
+1680962287128,,,,,,,,
+1680962287129,,,,,,,,
+1680962287130,,,,,,,,
+1680962287131,,,,,,,,
+1680962287132,,,,,,,,
+1680962287133,,,,,,,,
+1680962287134,,,,,,,,
+1680962287135,,,,,,,,
+1680962287136,,,,,,,,
+1680962287137,,,,,,,,
+1680962287138,,,,,,,,
+1680962287139,,,,,,,,
+1680962287140,,,,,,,,
+1680962287141,,,,,,,,
+1680962287142,,,,,,,,
+1680962287143,,,,,,,,
+1680962287144,,,,,,,,
+1680962287145,,,,,,,,
+1680962287146,,,,,,,,
+1680962287147,,,,,,,,
+1680962287148,,,,,,,,
+1680962287149,,,,,,,,
+1680962287150,,,,,,,,
+1680962287151,,,,,,,,
+1680962287152,,,,,,,,
+1680962287153,,,,,,,,
+1680962287154,,,,,,,,
+1680962287155,,,,,,,,
+1680962287156,,,,,,,,
+1680962287157,,,,,,,,
+1680962287158,,,,,,,,
+1680962287159,,,,,,,,
+1680962287160,,,,,,,,
+1680962287161,,,,,,,,
+1680962287162,,,,,,,,
+1680962287163,,,,,,,,
+1680962287164,,,,,,,,
+1680962287165,,,,,,,,
+1680962287166,,,,,,,,
+1680962287167,,,,,,,,
+1680962287168,,,,,,,,
+1680962287169,,,,,,,,
+1680962287170,,,,,,,,
+1680962287171,,,,,,,,
+1680962287172,,,,,,,,
+1680962287173,,,,,,,,
+1680962287174,,,,,,,,
+1680962287175,,,,,,,,
+1680962287176,,,,,,,,
+1680962287177,,,,,,,,
+1680962287178,,,,,,,,
+1680962287179,,,,,,,,
+1680962287180,,,,,,,,
+1680962287181,,,,,,,,
+1680962287182,,,,,,,,

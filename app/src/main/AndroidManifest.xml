@@ -20,16 +20,10 @@
             android:label="@string/title_activity_maps" />
 
         <activity
-            android:name=".ProfileUpdateActivity"
-            android:exported="false" />
-        <activity
             android:name=".AboutUsActivity"
             android:exported="false" />
         <activity
             android:name=".SignUpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".RegistrationActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"

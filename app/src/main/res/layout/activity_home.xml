@@ -36,6 +36,18 @@
                 android:layout_marginTop="8dp"
                 android:hint="Location Search" />
 
+            <Button
+                android:id="@+id/btn_import_restaurants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Import Restaurants" />
+
+            <Button
+                android:id="@+id/btn_import_food_items"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Import Food Items" />
+
         </LinearLayout>
 
         <ScrollView

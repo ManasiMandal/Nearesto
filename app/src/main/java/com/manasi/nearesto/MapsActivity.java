@@ -98,7 +98,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap.addMarker(new MarkerOptions().position(currentLocation).title("Your location"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentLocation, 15f));
 
-
     }
 
     // override method to display location on change

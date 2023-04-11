@@ -4,10 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 import android.content.Intent;
+import android.content.res.Resources;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -17,10 +20,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.manasi.nearesto.helper.CSVDataImporter;
 import com.manasi.nearesto.helper.MenuNavigation;
 import com.manasi.nearesto.modal.Restaurant;
 import com.squareup.picasso.Picasso;
 
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 
 public class HomeActivity extends AppCompatActivity {
@@ -52,6 +59,20 @@ public class HomeActivity extends AppCompatActivity {
 //            i.putExtra("location",locationSearch.getText().toString());
 //            startActivity(i);
 //        });
+
+
+
+        Button btnImportRestaurants = findViewById(R.id.btn_import_restaurants);
+        btnImportRestaurants.setOnClickListener(view -> {
+            try {
+
+                CSVDataImporter.doImport(this, R.raw.nearesto_food_items, "items", "id");
+            } catch (IOException e) {
+
+                Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 
     private void loadRestaurants() {
@@ -96,7 +117,7 @@ public class HomeActivity extends AppCompatActivity {
             tvLocation.setText(restaurant.getAddress2());
             rbRating.setRating(restaurant.getRating());
             tvRating.setText("" + restaurant.getRating());
-            tvDistance.setText(restaurant.getLatitude() + ", " + restaurant.getLongitude()) ;
+//            tvDistance.setText(restaurant.getLatitude() + ", " + restaurant.getLongitude()) ;
 
             if (restaurant.getType() == 0) {
                 ivTypeNonVeg.setVisibility(View.GONE);

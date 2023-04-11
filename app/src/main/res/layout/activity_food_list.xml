@@ -29,6 +29,21 @@
                 android:textStyle="bold"
                 android:text="Food" />
 
+            <EditText
+                android:id="@+id/et_food_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="Search" />
+
+            <Spinner
+                android:id="@+id/menu_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="12dp"
+                android:padding="10dp"
+                android:entries="@array/food_keywords" />
+
         </LinearLayout>
 
         <ScrollView

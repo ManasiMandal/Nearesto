@@ -4,4 +4,13 @@
         <u>New here? Tap to Register</u>.
     </string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string-array name="food_keywords">
+        <item value="">Filter By</item>
+        <item value="veg">Veg</item>
+        <item value="non_veg">Non-Veg</item>
+        <item value="juice">Juice</item>
+        <item value="drinks">Drinks</item>
+        <item value="pizza">Pizza</item>
+        <item value="chicken">Chicken</item>
+    </string-array>
 </resources>
