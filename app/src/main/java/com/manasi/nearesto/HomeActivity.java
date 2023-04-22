@@ -1,33 +1,25 @@
 package com.manasi.nearesto;
 
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
-import android.content.Intent;
-import android.content.res.Resources;
-import android.net.Uri;
-import android.os.Bundle;
-import android.os.Handler;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.RatingBar;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
-import android.widget.Toast;
-
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.Query;
 import com.manasi.nearesto.helper.CSVDataImporter;
 import com.manasi.nearesto.helper.MenuNavigation;
+import com.manasi.nearesto.helper.Utils;
 import com.manasi.nearesto.modal.Restaurant;
-import com.squareup.picasso.Picasso;
 
-import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 
 public class HomeActivity extends AppCompatActivity {
@@ -60,15 +52,22 @@ public class HomeActivity extends AppCompatActivity {
 //            startActivity(i);
 //        });
 
-
-
+        // Listener for button to import restaurants data from the CSV file present in raw folder
         Button btnImportRestaurants = findViewById(R.id.btn_import_restaurants);
         btnImportRestaurants.setOnClickListener(view -> {
             try {
-
-                CSVDataImporter.doImport(this, R.raw.nearesto_food_items, "items", "id");
+                CSVDataImporter.importRestaurants(this);
             } catch (IOException e) {
+                Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
 
+        // Listener for button to import food items data from the CSV file present in raw folder
+        Button btnImportFoodItems = findViewById(R.id.btn_import_food_items);
+        btnImportFoodItems.setOnClickListener(view -> {
+            try {
+                CSVDataImporter.importFoodItems(this);
+            } catch (IOException e) {
                 Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
@@ -77,73 +76,31 @@ public class HomeActivity extends AppCompatActivity {
 
     private void loadRestaurants() {
 
+        ProgressDialog loader = Utils.progressDialog(this, "Loading restaurants...");
+        loader.show();
+
         db.collection("restaurants")
+                .orderBy("rating", Query.Direction.DESCENDING)
                 .get()
                 .addOnCompleteListener(task -> {
                     if(task.isSuccessful()) {
-                        Log.d("mydata", task.getResult().toString());
                         List<Restaurant> restaurants = task.getResult().toObjects(Restaurant.class);
                         setRestaurantsInContainer(restaurants);
                     } else {
                         Toast.makeText(this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                     }
+                    loader.dismiss();
                 })
                 .addOnFailureListener(ex -> {
                     Toast.makeText(this, ex.getMessage(), Toast.LENGTH_SHORT).show();
+                    loader.dismiss();
                 });
     }
 
     private void setRestaurantsInContainer(List<Restaurant> restaurants) {
-
         restaurantsContainer.removeAllViews();
-
         for (Restaurant restaurant: restaurants) {
-
-
-
-            LinearLayout restaurantItemCard = (LinearLayout) getLayoutInflater().inflate(R.layout.restaurant_item_card, null);
-            ImageView ivRestaurantImage = restaurantItemCard.findViewById(R.id.iv_restaurant_image);
-//            int size = Resources.getSystem().getDisplayMetrics().widthPixels - (cardContainer.getPaddingRight() * 2);
-//            imageView.setLayoutParams(new LinearLayout.LayoutParams(size, size));
-            TextView tvName = restaurantItemCard.findViewById(R.id.tv_name);
-            TextView tvLocation = restaurantItemCard.findViewById(R.id.tv_location);
-            RatingBar rbRating = restaurantItemCard.findViewById(R.id.rb_rating);
-            TextView tvRating = restaurantItemCard.findViewById(R.id.tv_rating);
-            TextView tvDistance = restaurantItemCard.findViewById(R.id.tv_distance);
-            ImageView ivTypeVeg = restaurantItemCard.findViewById(R.id.iv_type_veg);
-            ImageView ivTypeNonVeg = restaurantItemCard.findViewById(R.id.iv_type_non_veg);
-
-            tvName.setText(restaurant.getName());
-            tvLocation.setText(restaurant.getAddress2());
-            rbRating.setRating(restaurant.getRating());
-            tvRating.setText("" + restaurant.getRating());
-//            tvDistance.setText(restaurant.getLatitude() + ", " + restaurant.getLongitude()) ;
-
-            if (restaurant.getType() == 0) {
-                ivTypeNonVeg.setVisibility(View.GONE);
-                // Create the LayoutParams
-                RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams) ivTypeVeg.getLayoutParams();
-                // Add all the rules you need
-                params.addRule(RelativeLayout.ALIGN_PARENT_END);
-                // Once you are done set the LayoutParams to the layout
-                ivTypeVeg.setLayoutParams(params);
-            }
-            if (restaurant.getType() == 1) {
-                ivTypeVeg.setVisibility(View.GONE);
-            }
-            restaurantItemCard.setOnClickListener(v -> {
-                Intent i = new Intent(HomeActivity.this, ViewRestaurant.class);
-                i.putExtra("restaurant_id", restaurant.getId());
-                i.putExtra("restaurant", restaurant);
-                startActivity(i);
-            });
-
-            String url = restaurant.getUrl();
-
-            if (url != null) {
-                Picasso.get().load(url).into(ivRestaurantImage);
-            }
-
+            LinearLayout restaurantItemCard = Utils.prepareRestaurantCard(this, restaurant, false);
             restaurantsContainer.addView(restaurantItemCard);
         }
     }

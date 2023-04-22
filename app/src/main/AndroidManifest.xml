@@ -12,13 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nearesto"
         tools:targetApi="31">
-
-
+        <activity
+            android:name=".ViewFoodItem"
+            android:exported="false" />
+        <activity
+            android:name=".OrderPlacedActivity"
+            android:exported="false" />
         <activity
             android:name=".MapsActivity"
             android:exported="false"
             android:label="@string/title_activity_maps" />
-
         <activity
             android:name=".AboutUsActivity"
             android:exported="false" />
@@ -67,7 +70,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -82,12 +84,10 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCecpM9WZECZ69r8VJmscCEd9AOfsnj_iQ" />
-
     </application>
-
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
 </manifest>

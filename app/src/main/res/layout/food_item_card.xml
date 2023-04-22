@@ -40,7 +40,8 @@
             android:id="@+id/tv_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Item name 1"
+            android:background="#EEE"
+            android:text="                         "
             android:textColor="@color/black"
             android:textSize="15sp"
             android:textStyle="bold" />
@@ -52,7 +53,8 @@
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Restaurant Name" />
+            android:background="#EEE"
+            android:text="                                               " />
 
         <TextView
             android:id="@+id/tv_price"
@@ -61,7 +63,8 @@
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="$20" />
+            android:background="#EEE"
+            android:text="         " />
 
     </LinearLayout>
 
@@ -72,6 +75,6 @@
         android:layout_marginTop="73dp"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="12dp"
-        android:background="@drawable/veg" />
+        android:background="#EEE" />
 
 </RelativeLayout>

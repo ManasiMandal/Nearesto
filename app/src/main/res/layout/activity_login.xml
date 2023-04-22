@@ -1,88 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingHorizontal="40dp"
     tools:context=".LoginActivity">
 
-    <LinearLayout
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="525dp"
-        android:layout_marginTop="75dp"
-        android:gravity="center"
-        android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="250dp"
+        android:src="@drawable/ic_nearesto" />
 
-        <ImageView
-            android:layout_width="300dp"
-            android:layout_height="250dp"
-            android:src="@drawable/ic_nearesto" />
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textbox_back"
+        android:drawableLeft="@drawable/ic_mail_outline_white"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint"
+        android:drawablePadding="5dp"
+        android:textSize="20sp" />
 
-        <EditText
-            android:id="@+id/edittext_login_email"
-            android:layout_width="330dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/textbox_back"
-            android:drawableLeft="@drawable/ic_mail_outline_white"
-            android:ems="10"
-            android:hint="E-mail"
-            android:inputType="textPersonName"
-            android:padding="5dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/hint"
-            android:drawablePadding="5dp"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toTopOf="@+id/editText_password"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textbox_back"
+        android:drawableLeft="@drawable/ic_lock_outline_white"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColorHint="@color/hint"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
 
-        <EditText
-            android:id="@+id/editText_password"
-            android:layout_width="330dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/textbox_back"
-            android:drawableLeft="@drawable/ic_lock_outline_white"
-            android:drawablePadding="5dp"
-            android:ems="10"
-            android:hint="Password"
-            android:inputType="textPassword"
-            android:padding="5dp"
-            android:textColorHint="@color/hint"
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/edittext_login_enail" />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/loginbutton_back"
+        android:text="Log in"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
-        <Button
-            android:id="@+id/button_signin"
-            android:layout_width="330dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="27dp"
-            android:background="@drawable/loginbutton_back"
-            android:text="Log in"
-            android:textColor="@color/white"
-            android:textSize="19sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/link_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="12dp"
+        android:layout_gravity="end"
+        android:text="@string/register_text"
+        android:textSize="15sp"
+        android:textColor="@color/white" />
 
-        <TextView
-            android:id="@+id/text_signup"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/register_text"
-            android:layout_marginTop="20dp"
-            android:textSize="19sp"
-            android:textColor="@color/white"
-            android:padding="5dp" />
-
-    </LinearLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

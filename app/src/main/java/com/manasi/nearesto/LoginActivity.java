@@ -1,147 +1,94 @@
 package com.manasi.nearesto;
 
-import android.content.Context;
+import android.app.ProgressDialog;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.firestore.DocumentReference;
-import com.google.firebase.firestore.DocumentSnapshot;
-import com.manasi.nearesto.R;
-
-//import Model.BaseFirestore;
-//import Model.Customer;
-//import Model.Product;
-//import Model.PromoCodes;
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.manasi.nearesto.helper.Crypto;
+import com.manasi.nearesto.helper.Utils;
+import com.manasi.nearesto.modal.User;
 
-public class LoginActivity extends AppCompatActivity
-{
-    TextView email;
-    TextView password;
-    Button signin;
-    TextView signup;
-    Context context = this;
-    @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+public class LoginActivity extends AppCompatActivity {
+
+    private Button btnLogin;
+    private EditText etEmail, etPassword;
+    private TextView linkRegister;
+    private ProgressDialog pd;
+
+    private FirebaseFirestore db;
+
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        SharedPreferences sharedPreferences=context.getSharedPreferences("my_prefs", Context.MODE_PRIVATE);
-        email=findViewById(R.id.edittext_login_email);
-        password=findViewById(R.id.editText_password);
-        signup=findViewById(R.id.text_signup);
+        btnLogin     = findViewById(R.id.btn_login);
+        etEmail      = findViewById(R.id.et_email);
+        etPassword   = findViewById(R.id.et_password);
+        linkRegister = findViewById(R.id.link_register);
 
-        System.out.println("sharedPreferences" + sharedPreferences.getString("customerType","null"));
-        email.setText(sharedPreferences.getString("email",""));
-        password.setText(sharedPreferences.getString("password",""));
+        btnLogin.setOnClickListener(view -> login());
+        linkRegister.setOnClickListener(view -> Utils.startActivity(this, SignUpActivity.class));
 
-        signup.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this, SignUpActivity.class);
-                startActivity(intent);
-            }
-        });
-        System.out.println("INSIDE LOGIN CLASS -----------------------");
-        System.out.println("Initially : "+signin);
-        signin=findViewById(R.id.button_signin);
-        System.out.println("Finally : "+signin);
-//        signin.setOnClickListener(new View.OnClickListener()
-//        {
-//            //Toast.makeText(getApplicationContext(),"User exists with password :",Toast.LENGTH_SHORT).show();
-//            @Override
-//            public void onClick(View view)
-//            {
-//                final String e_mail = email.getText().toString();
-//                DocumentReference docref = Customer.db.collection("Customer").document(e_mail);
-//                docref.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>()
-//                {
-//                    @Override
-//                    public void onComplete(@NonNull Task<DocumentSnapshot> task)
-//                    {
-//
-//                        if(task.isSuccessful())
-//                        {
-//                            DocumentSnapshot doc = task.getResult();
-//                            if(doc.exists())
-//                            {
-//                                String pa = doc.getString("password");
-//                                Customer c = doc.toObject(Customer.class);
-//                                //System.out.println(c);
-//                                if(pa.equals(password.getText().toString())) {
-//                                    SharedPreferences.Editor editor = sharedPreferences.edit();
-//                                    editor.putString("email",email.getText().toString());
-//                                    editor.putString("password",pa);
-//                                    editor.putString("customerType", "Customer");
-//                                    editor.commit();
-//                                    go_to_Customet_Home();
-//                                }
-//                                else {
-//                                    Toast.makeText(getApplicationContext(),
-//                                            "Incorrect Password customer",
-//                                            Toast.LENGTH_SHORT).show();
-//                                }
-//                            }
-//                            else
-//                            {
-//                                final DocumentReference  doc2= BaseFirestore.db.collection("DeliveryPartner").document(e_mail);
-//                                doc2.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>()
-//                                {
-//                                    @Override
-//                                    public void onComplete(@NonNull Task<DocumentSnapshot> task)
-//                                    {
-//                                        if(task.isSuccessful())
-//                                        {
-//                                            DocumentSnapshot ref = task.getResult();
-//                                            if(ref.exists())
-//                                            {
-//                                                String pa = ref.getString("password");
-//                                                if(pa.equals(password.getText().toString()))
-//                                                {
-//                                                    SharedPreferences.Editor editor = sharedPreferences.edit();
-//                                                    editor.putString("email",email.getText().toString());
-//                                                    editor.putString("password",pa);
-//                                                    editor.commit();
-//                                                }
-//                                                else
-//                                                {
-//                                                    Toast.makeText(getApplicationContext(),"Incorrect Password delivery",Toast.LENGTH_SHORT).show();
-//                                                }
-//                                            }
-//                                            else
-//                                            {
-//                                                Toast.makeText(getApplicationContext(),"User does not exist , please sign up",Toast.LENGTH_SHORT).show();
-////                                                finish();
-//                                            }
-//                                        }
-//                                        else
-//                                        {
-//
-//                                        }
-//                                    }
-//                                });
-//                                //Toast.makeText(getApplicationContext(),"User does not exist , please sign up",Toast.LENGTH_SHORT).show();
-//                                //finish();
-//                                //go to previous activity
-//                            }
-//                        }
-//                        else
-//                        {
-////                            //now check DileveryPartner collection.
-////                            Toast.makeText(getApplicationContext(),"Error connecting to servers",Toast.LENGTH_SHORT).show();
-//                        }
-//                    }
-//                });
-//            }
-//        });
+        String recentUserEmail = getIntent().getStringExtra("email");
+        if(recentUserEmail != null) {
+            etEmail.setText(recentUserEmail);
+            etPassword.getText().clear();
+        }
+
+        db = FirebaseFirestore.getInstance();
     }
 
+    private void login() {
+
+        String email    = etEmail.getText().toString().trim();
+        String password = etPassword.getText().toString().trim();
+
+        if ( email.length() == 0 ) {
+            Toast.makeText(this, "Email required!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if ( password.length() == 0 ) {
+            Toast.makeText(this, "Password required!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        pd = Utils.progressDialog(this, "Please wait...");
+        pd.show();
+
+        db.collection("users")
+                .document(Utils.getID(email))
+                .get()
+                .addOnCompleteListener(task -> {
+                    if(task.isSuccessful()) {
+                        if(task.getResult().exists() && Crypto.decrypt(task.getResult().get("password", String.class)).equals(password)) {
+                            User user = task.getResult().toObject(User.class);
+                            Utils.addUserToSharedPreferences(this, user);
+                            Utils.addRecentUserToSharedPreferences(this, user);
+                            startActivity(new Intent(this, HomeActivity.class));
+                        }
+                        else {
+                            Toast.makeText(this, "Invalid email or password!", Toast.LENGTH_SHORT).show();
+                        }
+                    } else {
+                        Toast.makeText(this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                    pd.dismiss();
+                })
+                .addOnFailureListener(ex -> {
+                    Toast.makeText(this, ex.getMessage(), Toast.LENGTH_SHORT).show();
+                    pd.dismiss();
+                });
+    }
+
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(this, HomeActivity.class));
+    }
 }

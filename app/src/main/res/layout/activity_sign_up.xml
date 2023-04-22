@@ -1,102 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
-tools:context=".SignUpActivity">
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:gravity="center"
+    android:background="@color/colorPrimary"
     android:orientation="vertical"
-    app:layout_constraintTop_toTopOf="parent">
+    android:paddingHorizontal="40dp"
+    tools:context=".SignUpActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ImageView
-        android:layout_width="176dp"
-        android:layout_height="190dp"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
         android:src="@drawable/ic_nearesto" />
 
     <EditText
-        android:id="@+id/edittext_name"
-        android:layout_width="330dp"
-        android:layout_height="50dp"
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:background="@drawable/textbox_back"
         android:drawableLeft="@drawable/ic_person_outline_white"
         android:drawablePadding="5dp"
         android:ems="10"
-        android:padding="5dp"
+        android:padding="16dp"
         android:textColor="@color/black"
         android:textColorHint="@color/hint"
         android:textSize="20sp"
         android:hint="Name"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/edittext_email"
-        android:layout_width="330dp"
-        android:layout_height="50dp"
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:background="@drawable/textbox_back"
         android:drawableLeft="@drawable/ic_mail_outline_white"
-        android:drawablePadding="5dp"
         android:ems="10"
-        android:padding="5dp"
-        android:textColor="@color/black"
-        android:textColorHint="@color/hint"
-        android:textSize="20sp"
         android:hint="E-mail"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edittext_name" />
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint"
+        android:drawablePadding="5dp"
+        android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/edittext_login_email"
-        android:layout_width="330dp"
-        android:layout_height="50dp"
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:background="@drawable/textbox_back"
         android:drawableLeft="@drawable/ic_phone_outline_white"
         android:drawablePadding="5dp"
         android:ems="10"
-        android:padding="5dp"
+        android:padding="16dp"
         android:textColor="@color/black"
         android:textColorHint="@color/hint"
         android:textSize="20sp"
         android:hint="Phone"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edittext_email" />
+        android:inputType="phone" />
 
     <EditText
-        android:id="@+id/edittext_pass"
-        android:layout_width="330dp"
-        android:layout_height="50dp"
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:background="@drawable/textbox_back"
         android:drawableLeft="@drawable/ic_lock_outline_white"
         android:drawablePadding="5dp"
         android:ems="10"
-        android:padding="5dp"
-        android:textColor="@color/black"
-        android:textColorHint="@color/hint"
-        android:textSize="20sp"
         android:hint="Password"
         android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edittext_login_email" />
+        android:padding="16dp"
+        android:textColorHint="@color/hint"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
 
     <Button
-        android:id="@+id/button_signup_sign"
+        android:id="@+id/btn_signup"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:layout_marginTop="22dp"
@@ -109,6 +93,14 @@ tools:context=".SignUpActivity">
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edittext_pass" />
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/link_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="12dp"
+        android:layout_gravity="end"
+        android:text="Already registered! Login here."
+        android:textSize="15sp"
+        android:textColor="@color/white" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

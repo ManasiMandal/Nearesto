@@ -2,20 +2,18 @@ package com.manasi.nearesto;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
+import android.app.ProgressDialog;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RatingBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.manasi.nearesto.helper.MenuNavigation;
+import com.manasi.nearesto.helper.Utils;
 import com.manasi.nearesto.modal.FoodItem;
 import com.manasi.nearesto.modal.Restaurant;
 import com.squareup.picasso.Picasso;
@@ -41,7 +39,11 @@ public class FoodListActivity extends AppCompatActivity {
 
     private void loadFoodItems() {
 
+        ProgressDialog loader = Utils.progressDialog(this, "Loading items...");
+        loader.show();
+
         db.collection("items")
+                .orderBy("restaurant", Query.Direction.DESCENDING)
                 .get()
                 .addOnCompleteListener(task -> {
                     if(task.isSuccessful()) {
@@ -50,54 +52,23 @@ public class FoodListActivity extends AppCompatActivity {
                     } else {
                         Toast.makeText(this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                     }
+                    loader.dismiss();
                 })
                 .addOnFailureListener(ex -> {
                     Toast.makeText(this, ex.getMessage(), Toast.LENGTH_SHORT).show();
+                    loader.dismiss();
                 });
     }
 
     private void setFoodItemsInContainer(List<FoodItem> foodItems) {
-
         foodItemsContainer.removeAllViews();
-
         for (FoodItem foodItem: foodItems) {
-
-            RelativeLayout foodItemCard = (RelativeLayout) getLayoutInflater().inflate(R.layout.food_item_card, null);
-            ImageView ivFoodImage = foodItemCard.findViewById(R.id.iv_image);
-            TextView tvName = foodItemCard.findViewById(R.id.tv_name);
-            TextView tvRestaurantName = foodItemCard.findViewById(R.id.tv_restaurant_name);
-            TextView tvPrice = foodItemCard.findViewById(R.id.tv_price);
-//            RatingBar rbRating = foodItemCard.findViewById(R.id.rb_rating);
-//            TextView tvRating = foodItemCard.findViewById(R.id.tv_rating);
-            ImageView ivType = foodItemCard.findViewById(R.id.iv_type);
-
-            fetchRestaurantsName(foodItem.getRestaurant(), tvRestaurantName);
-
-            tvName.setText(foodItem.getName());
-            tvPrice.setText("" + foodItem.getPrice());
-//            rbRating.setRating(foodItem.getRating());
-//            tvRating.setText("" + foodItem.getRating());
-            if (foodItem.isNonVeg()) {
-                ivType.setBackgroundResource(R.drawable.non_veg);
-            }
-//            foodItemCard.setOnClickListener(v -> {
-//                Intent i = new Intent(FoodListActivity.this, ViewItem.class);
-//                i.putExtra("food_item_id", foodItem.getId());
-//                i.putExtra("food_item", foodItem);
-//                startActivity(i);
-//            });
-
-            String url = foodItem.getUrl();
-
-            if (url != null) {
-                Picasso.get().load(url).into(ivFoodImage);
-            }
-
+            RelativeLayout foodItemCard = Utils.prepareFoodItemCard(this, foodItem);
             foodItemsContainer.addView(foodItemCard);
         }
     }
 
-    private void fetchRestaurantsName(long restaurantId, TextView tvRestaurantName) {
+    private void fetchRestaurantName(long restaurantId, TextView tvRestaurantName) {
         db.collection("restaurants")
                 .whereEqualTo("id", restaurantId)
                 .get()

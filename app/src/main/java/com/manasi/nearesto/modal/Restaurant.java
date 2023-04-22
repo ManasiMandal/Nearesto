@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class Restaurant implements Serializable {
 
-    private String name, description, url, address1, address2, city, state, country, zipcode;
+    private String name, description, url, address1, address2, city, state, country, pincode;
     private int type;
     private float rating, latitude, longitude;
 
@@ -26,7 +26,7 @@ public class Restaurant implements Serializable {
         this.city = city;
         this.state = state;
         this.country = country;
-        this.zipcode = zipcode;
+        this.pincode = zipcode;
         this.type = type;
         this.rating = rating;
         this.latitude = latitude;
@@ -97,12 +97,12 @@ public class Restaurant implements Serializable {
         this.country = country;
     }
 
-    public String getZipcode() {
-        return zipcode;
+    public String getPincode() {
+        return pincode;
     }
 
-    public void setZipcode(String zipcode) {
-        this.zipcode = zipcode;
+    public void setPincode(String pincode) {
+        this.pincode = pincode;
     }
 
     public int getType() {
@@ -143,5 +143,9 @@ public class Restaurant implements Serializable {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    public String getFullAddress() {
+        return getAddress1() + ", " + getAddress2() + ", " + getCity() + ", " + getState() + ", " + getPincode();
     }
 }

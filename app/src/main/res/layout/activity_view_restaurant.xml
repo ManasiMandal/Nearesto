@@ -20,7 +20,8 @@
         android:layout_height="32dp"
         android:layout_margin="12dp"
         android:layout_alignParentEnd="true"
-        android:background="@drawable/left_back" />
+        android:background="@drawable/left_back"
+        android:visibility="gone"/>
 
     <LinearLayout
         android:id="@+id/main_container"
@@ -41,12 +42,12 @@
             android:layout_above="@+id/menu">
 
             <LinearLayout
+                android:id="@+id/details_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <include
-                    android:id="@+id/restaurant_details_container"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     layout="@layout/restaurant_item_card" />
@@ -56,6 +57,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="22sp"
                     android:textStyle="bold"
+                    android:layout_marginTop="12dp"
                     android:paddingVertical="8dp"
                     android:textColor="@color/black"
                     android:text="Dishes" />
@@ -67,6 +69,16 @@
                     android:layout_height="wrap_content"
                     android:divider="@drawable/divider"
                     android:showDividers="middle">
+
+                    <include
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        layout="@layout/food_item_card" />
+
+                    <include
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        layout="@layout/food_item_card" />
 
                     <include
                         android:layout_width="match_parent"

@@ -67,6 +67,31 @@
                     android:layout_height="wrap_content"
                     layout="@layout/food_item_card" />
 
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/food_item_card" />
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/food_item_card" />
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/food_item_card" />
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/food_item_card" />
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/food_item_card" />
+
             </LinearLayout>
 
         </ScrollView>

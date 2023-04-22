@@ -4,17 +4,90 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-tools:context=".Cart"
-android:background="@drawable/my_bg"
+tools:context=".OrdersActivity"
 android:padding="16dp">
 
-<androidx.cardview.widget.CardView
+    <androidx.cardview.widget.CardView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/listCart"
     android:background="@android:color/transparent"/>
 
-<androidx.cardview.widget.CardView
+        <TextView
+            android:id="@+id/tvFoodName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/etFoodName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvFoodName"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tvQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/etFoodName"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/etQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvQuantity"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price ($)"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/etQuantity"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/etPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPrice"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:inputType="numberDecimal"/>
+
+
+        <TextView
+            android:id="@+id/tvOrderSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/btnOrder"/>
+
+
+        <androidx.cardview.widget.CardView
     android:layout_alignParentBottom="true"
     app:cardBackgroundColor="@color/colorPrimary"
     android:layout_width="match_parent"
@@ -50,18 +123,16 @@ android:padding="16dp">
         </LinearLayout>
 
         <Button
-            android:id="@+id/btnPlaceOrder"
-            android:layout_width="339dp"
-            android:layout_height="37dp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="11dp"
-            android:layout_marginLeft="6dp"
-            android:layout_marginStart="6dp"
-            android:background="#6eda64"
-            android:text="PLACE ORDER"
-            android:textColor="@color/colorPrimary" />
+            android:id="@+id/btnOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Place Order"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/etPrice"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
 
 
     </RelativeLayout>

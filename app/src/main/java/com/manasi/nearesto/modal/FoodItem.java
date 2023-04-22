@@ -1,10 +1,35 @@
 package com.manasi.nearesto.modal;
 
+import java.io.Serializable;
 import java.util.Locale;
 
-public class FoodItem {
+public class FoodItem implements Serializable {
 
-    private String name, description, url, type, restaurantId, restaurantName;
+    private String name;
+    private String description;
+    private String url;
+    private String type;
+    private String restaurantId;
+
+    public String getRestaurantName() {
+        return restaurantName;
+    }
+
+    public void setRestaurantName(String restaurantName) {
+        this.restaurantName = restaurantName;
+    }
+
+    private String restaurantName;
+
+    public String getKeywords() {
+        return keywords;
+    }
+
+    public void setKeywords(String keywords) {
+        this.keywords = keywords;
+    }
+
+    private String keywords;
     private float rating, price;
 
     private long id, restaurant;
