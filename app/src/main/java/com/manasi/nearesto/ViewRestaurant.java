@@ -39,15 +39,12 @@ public class ViewRestaurant extends AppCompatActivity {
         setContentView(R.layout.activity_view_restaurant);
 
         Button btnBack = findViewById(R.id.btn_back);
-        btnBack.setOnClickListener(view -> {
-            finish();
-        });
+        btnBack.setOnClickListener(view -> finish() );
+        Utils.setupCartMenu(this);
 
         foodItemsContainer = findViewById(R.id.food_items_container);
         db = FirebaseFirestore.getInstance();
 
-//        Bundle extras = getIntent().getExtras();
-//        long restaurantId = extras.getLong("restaurant_id");
         Restaurant restaurant = (Restaurant) getIntent().getSerializableExtra("restaurant");
 
         setRestaurantDetailsInCard(restaurant);
@@ -57,6 +54,7 @@ public class ViewRestaurant extends AppCompatActivity {
     private void setRestaurantDetailsInCard(Restaurant restaurant) {
         LinearLayout detailsContainer   = findViewById(R.id.details_container);
         LinearLayout restaurantItemCard = Utils.prepareRestaurantCard(this, restaurant, true);
+        restaurantItemCard.setOnClickListener(null);
         detailsContainer.removeViewAt(0);
         detailsContainer.addView(restaurantItemCard, 0);
     }

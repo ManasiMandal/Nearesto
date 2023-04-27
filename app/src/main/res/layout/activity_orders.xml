@@ -6,12 +6,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".OrdersActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:text="My Orders"
+        android:textColor="@color/black"
+        android:layout_alignParentStart="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_cart"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ic_cart"/>
+
     <LinearLayout
         android:id="@+id/main_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingHorizontal="12dp"
         android:layout_alignParentStart="true"
+        android:layout_below="@id/btn_cart"
         android:layout_above="@id/bottom_nav_menu"
         android:orientation="vertical">
 
@@ -20,14 +41,6 @@
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:orientation="vertical">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="24sp"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:text="Orders" />
 
         </LinearLayout>
 
@@ -41,14 +54,53 @@
             android:layout_above="@+id/menu">
 
             <LinearLayout
-                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
                 <LinearLayout
+                    android:id="@+id/no_orders"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:layout_height="match_parent"
+                    android:paddingVertical="75dp"
+                    android:divider="@drawable/divider"
+                    android:orientation="vertical"
+                    android:showDividers="middle"
+                    android:alpha=".5">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_close" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="24sp"
+                        android:text="No orders placed yet!" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/orders_container"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@drawable/divider"
+                    android:showDividers="middle">
+
+                    <include
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        layout="@layout/order_card"/>
+
+                    <include
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        layout="@layout/order_card"/>
 
                 </LinearLayout>
 

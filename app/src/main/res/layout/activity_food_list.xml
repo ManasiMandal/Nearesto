@@ -6,12 +6,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".FoodListActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Food"
+        android:textColor="@color/black"
+        android:layout_alignParentStart="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_cart"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ic_cart"/>
+
     <LinearLayout
         android:id="@+id/main_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingHorizontal="12dp"
         android:layout_alignParentStart="true"
+        android:layout_below="@id/btn_cart"
         android:layout_above="@id/bottom_nav_menu"
         android:orientation="vertical">
 
@@ -21,23 +42,16 @@
             android:padding="8dp"
             android:orientation="vertical">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="24sp"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:text="Food" />
-
             <EditText
                 android:id="@+id/et_food_search"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:hint="Search" />
+                android:hint="Search"
+                android:visibility="gone"/>
 
             <Spinner
-                android:id="@+id/menu_spinner"
+                android:id="@+id/sp_filter_by"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="12dp"

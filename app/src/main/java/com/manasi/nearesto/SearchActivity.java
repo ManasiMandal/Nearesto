@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.manasi.nearesto.helper.MenuNavigation;
+import com.manasi.nearesto.helper.Utils;
 
 public class SearchActivity extends AppCompatActivity {
 
@@ -13,5 +14,7 @@ public class SearchActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
         new MenuNavigation(this);
+
+        Utils.setupCartMenu(this);
     }
 }

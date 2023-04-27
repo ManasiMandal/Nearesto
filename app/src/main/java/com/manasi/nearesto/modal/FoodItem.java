@@ -1,7 +1,6 @@
 package com.manasi.nearesto.modal;
 
 import java.io.Serializable;
-import java.util.Locale;
 
 public class FoodItem implements Serializable {
 

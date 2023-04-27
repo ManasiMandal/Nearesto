@@ -21,7 +21,10 @@ public class MenuNavigation {
         btnResturants = activity.findViewById(R.id.btn_restaurants);
 
         btnHome.setOnClickListener(view -> activity.startActivity(new Intent(activity, HomeActivity.class)));
-        btnSearch.setOnClickListener(view -> activity.startActivity(new Intent(activity, SearchActivity.class)));
+        btnSearch.setOnClickListener(view -> {
+            Utils.toast(activity,"In development");
+//            activity.startActivity(new Intent(activity, SearchActivity.class));
+        });
         btnOrders.setOnClickListener(view -> activity.startActivity(new Intent(activity, OrdersActivity.class)));
         btnMyProfile.setOnClickListener(view -> activity.startActivity(new Intent(activity, MyProfileActivity.class)));
         btnResturants.setOnClickListener(view -> activity.startActivity(new Intent(activity, FoodListActivity.class)));

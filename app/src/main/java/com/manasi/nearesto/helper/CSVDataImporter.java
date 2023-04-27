@@ -8,6 +8,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -22,8 +24,10 @@ public class CSVDataImporter {
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         String filePath = "android.resource://" + context.getPackageName() + "/" + R.raw.nearesto_restaurants;
 
+        //To read csv data in stream format
         InputStream inputStream = context.getContentResolver().openInputStream(Uri.parse(filePath));
 
+        //BufferedReader to read data  line by line
         BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
 
         String[] headers;
@@ -134,7 +138,7 @@ public class CSVDataImporter {
             foodItem.setRating(Float.valueOf(item[index.get("rating")]));
             foodItem.setRestaurant(Long.valueOf("0" + item[index.get("restaurant")]));
             foodItem.setRestaurantName(item[index.get("restaurantName")]);
-            foodItem.setKeywords(item[index.get("keywords")]);
+            foodItem.setKeywords("|" + item[index.get("keywords")].replaceAll("\\| ", "|") + "|");
             if ( item.length == 10 ) {
                 foodItem.setUrl(item[index.get("url")]);
             }

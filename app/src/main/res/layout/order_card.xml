@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/order_card"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/card_background"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:clipToOutline="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/image_container"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:cardCornerRadius="8dp">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_nearesto" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/order_details"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_toEndOf="@id/image_container"
+        android:layout_centerVertical="true"
+        android:divider="@drawable/divider"
+        android:showDividers="middle">
+
+        <TextView
+            android:id="@+id/tv_order_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#EEE"
+            android:text="                               "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_order_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#EEE"
+            android:text="                                                        "
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_order_total"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#EEE"
+            android:layout_gravity="end"
+            android:text="                " />
+
+    </LinearLayout>
+
+</RelativeLayout>

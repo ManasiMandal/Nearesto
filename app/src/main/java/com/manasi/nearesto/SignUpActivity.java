@@ -10,7 +10,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.manasi.nearesto.helper.Crypto;
 import com.manasi.nearesto.helper.Utils;

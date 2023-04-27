@@ -67,6 +67,7 @@ public class LoginActivity extends AppCompatActivity {
                 .get()
                 .addOnCompleteListener(task -> {
                     if(task.isSuccessful()) {
+
                         if(task.getResult().exists() && Crypto.decrypt(task.getResult().get("password", String.class)).equals(password)) {
                             User user = task.getResult().toObject(User.class);
                             Utils.addUserToSharedPreferences(this, user);

@@ -6,6 +6,7 @@ import android.app.ProgressDialog;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
@@ -14,6 +15,7 @@ import android.widget.Toast;
 
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.manasi.nearesto.helper.Utils;
+import com.manasi.nearesto.modal.CartItem;
 import com.manasi.nearesto.modal.FoodItem;
 import com.manasi.nearesto.modal.Restaurant;
 import com.squareup.picasso.Picasso;
@@ -24,7 +26,8 @@ public class ViewFoodItem extends AppCompatActivity {
 
     private FirebaseFirestore db;
 
-    private Button btnAddToCart;
+    private Button btnAddToCart, btnDecrease, btnIncrease;
+    private EditText etQuantity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,9 +35,8 @@ public class ViewFoodItem extends AppCompatActivity {
         setContentView(R.layout.activity_view_food_item);
 
         Button btnBack = findViewById(R.id.btn_back);
-        btnBack.setOnClickListener(view -> {
-            finish();
-        });
+        btnBack.setOnClickListener(view -> finish() );
+        Utils.setupCartMenu(this);
 
         db = FirebaseFirestore.getInstance();
 
@@ -45,9 +47,33 @@ public class ViewFoodItem extends AppCompatActivity {
         loadFoodItemData(foodItem);
         loadRestaurantData(restaurantId);
 
+        etQuantity  = findViewById(R.id.et_quantity);
+        btnDecrease = findViewById(R.id.btn_decrease);
+        btnIncrease = findViewById(R.id.btn_increase);
+
+        btnDecrease.setOnClickListener(view -> {
+            int quantity = Integer.parseInt("0" + etQuantity.getText().toString());
+            if( quantity > 1 ) {
+                etQuantity.setText("" + --quantity);
+            }
+        });
+
+        btnIncrease.setOnClickListener(view -> {
+            int quantity = Integer.parseInt("0" + etQuantity.getText().toString());
+            if( quantity < 100 ) {
+                etQuantity.setText("" + ++quantity);
+            }
+        });
+
         btnAddToCart = findViewById(R.id.btn_add_to_cart);
         btnAddToCart.setOnClickListener(view -> {
-            Toast.makeText(this, "Item added to cart!", Toast.LENGTH_SHORT).show();
+            int quantity = Integer.parseInt("0" + etQuantity.getText().toString());
+            if(quantity < 1) {
+                Toast.makeText(this, "Minimum 1 quantity required!", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            CartItem cartItem = new CartItem(foodItem, quantity);
+            Utils.addItemToCart(this, cartItem, false);
         });
     }
 
@@ -76,7 +102,7 @@ public class ViewFoodItem extends AppCompatActivity {
         tvPrice.setText("₹ " + foodItem.getPrice());
         rbRating.setRating(foodItem.getRating());
         tvRating.setText("" + foodItem.getRating());
-        tvKeywords.setText(foodItem.getKeywords());
+        tvKeywords.setText(foodItem.getKeywords().replaceAll("\\|", ", "));
 
         if (foodItem.isNonVeg()) {
             ivType.setBackgroundResource(R.drawable.non_veg);
